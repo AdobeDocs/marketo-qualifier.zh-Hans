@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo中的任务限定符
-description: 了解如何在Adobe Marketo Qualifier任务队列中处理手动外联任务并审查代理建议的潜在客户。
+title: '[!DNL Adobe Marketo Qualifier]中的任务'
+description: 了解如何处理[!DNL Adobe Marketo Qualifier]任务队列中的手动外联任务并审查代理建议的潜在客户。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
@@ -12,9 +12,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1086'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * **[!UICONTROL LinkedIn InMail]** — 在节奏到达LinkedIn InMail步骤时创建。 工作面板显示要从LinkedIn复制和发送的内容。 展开&#x200B;**[!UICONTROL AI理由]**&#x200B;以查看理由。
 
-* **[!UICONTROL 电子邮件审核]** — 在Adobe Marketo限定符生成潜在客户的个性化电子邮件之后创建。 选择&#x200B;**[!UICONTROL 审阅电子邮件]**&#x200B;以在开始外展之前审阅和批准草稿。 查看[查看和优化生成的电子邮件](outbound-workflows.md#review-and-refine-generated-emails)。
+* **[!UICONTROL 电子邮件审核]** — 创建于[!DNL Adobe Marketo Qualifier]之后，用于生成潜在客户的个性化电子邮件。 要在开始外展之前审核和批准草稿，请选择&#x200B;**[!UICONTROL 审核电子邮件]**。 查看[查看和优化生成的电子邮件](outbound-workflows.md#review-and-refine-generated-emails)。
 
 ![电子邮件审核](assets/tasks-review.png)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 * **[!UICONTROL 排序]** — 按到期日期或创建日期排序。 排序顺序还决定了队列前进的顺序。
 * **[!UICONTROL 搜索任务]** — 按潜在客户名称、公司名称或出站工作流查找任务。 搜索适用于活动的过滤器。
 
-活动过滤器在工具栏下方显示为切片。 选择&#x200B;**[!UICONTROL 全部清除]**&#x200B;以重置它们。
+活动过滤器在工具栏下方显示为切片。 要重置它们，请选择&#x200B;**[!UICONTROL 全部清除]**。
 
 ### 任务状态
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 **[!UICONTROL 代理建议]**&#x200B;选项卡列出了与出站工作流的定位条件匹配且建议注册的潜在客户。 要启用推荐，请参阅[出站工作流](outbound-workflows.md)。
 
-选择建议以在工作面板中对其进行审阅：
+要在工作面板中查看建议，请选择该建议：
 
 * 回访间隔徽章将每个建议标记为&#x200B;**[!UICONTROL 新]**&#x200B;或&#x200B;**[!UICONTROL 上一个]**。
 * **[!UICONTROL 推荐的潜在客户]**&#x200B;或&#x200B;**[!UICONTROL 推荐联系人]**&#x200B;表列出了推荐的潜在客户，其中包含&#x200B;**[!UICONTROL 姓名]**、**[!UICONTROL 标题]**、**[!UICONTROL 帐户]**、**[!UICONTROL 状态]**、**[!UICONTROL 电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 上次更新时间]**&#x200B;的列。
@@ -116,6 +116,23 @@ ht-degree: 0%
 
 **[!UICONTROL 代理建议]**&#x200B;选项卡包括&#x200B;**[!UICONTROL 当前]**、**[!UICONTROL 已完成]**&#x200B;和&#x200B;**[!UICONTROL 已取消]**&#x200B;状态筛选器、出站工作流筛选器以及按创建日期排序。
 
+### 使用代理建议回复潜在客户
+
+当潜在客户回复电子邮件时，[!DNL Marketo Qualifier]可以起草线程内响应，并将其添加为&#x200B;**[!UICONTROL 代理建议]**&#x200B;下的任务。 草稿使用了以下内容中的相关上下文：
+
+* 完整的电子邮件线程，而不仅仅是最新的消息。
+* 您的知识中心宣传资料和产品研究。
+* 帐户信号，例如最近的新闻、营销参与和CRM活动。
+* 您保存的[电子邮件起草上下文](profile-settings.md#email-drafting-context)。
+
+助理根据潜在客户的意图调整响应。 例如，它可以通过您的预订链接为会议请求提供时间，在潜在客户感兴趣时增强价值，从您的宣传材料中回答产品问题，共享相关资产，用一个差异化因素解决异议，或在潜在客户希望推迟时使用低压响应。
+
+有关定价、法律或安全要求、敌意回应和不明确请求的消息仍留在该代表个人回应中。
+
+1. 打开回复建议并查看完整主题和草拟的回复。
+1. 要创建另一个草稿，请编辑响应或选择&#x200B;**[!UICONTROL 使用AI生成]**。
+1. 若要发送响应并继续潜在客户的出站工作流，请选择&#x200B;**[!UICONTROL 批准并发送]**。
+
 ## 从出站工作流完成任务
 
 在出站工作流的&#x200B;**[!UICONTROL 参与的潜在客户]**&#x200B;视图中，手动接触点提供了相同的&#x200B;**[!UICONTROL 标记为完成]**、**[!UICONTROL 跳过]**&#x200B;和注释选项。 在该处完成任务也会在&#x200B;**[!UICONTROL 任务]**&#x200B;页面上更新其状态。 请参阅[出站工作流](outbound-workflows.md)。
@@ -124,7 +141,7 @@ ht-degree: 0%
 
 * 当没有任务要执行时，列表显示&#x200B;_您今天已全部完成_&#x200B;消息。
 * 当过滤器与任何任务都不匹配时，列表报告没有任务与您的过滤器匹配。
-* 如果未选择任务，则工作面板会提示您选择任务以查看其详细信息。
+* 如果未选择任何任务，则工作面板会提示您选择任务。 要查看其详细信息，请选择一个任务。
 
 >[!MORELIKETHIS]
 >

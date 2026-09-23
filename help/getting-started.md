@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Adobe为您的组织设置Marketo限定符后，[!DNL Marketo]系统管理员必
 
 Adobe Admin Console中的用户组用于控制对Marketo Qualifier的访问。 必须先创建这两个组，用户才能登录。
 
-有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/cn/business/enterprise/users/users-and-groups/user-groups.html)。
+有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
@@ -58,7 +58,7 @@ Adobe Admin Console中的用户组用于控制对Marketo Qualifier的访问。 �
 1. 打开&#x200B;**[!UICONTROL 已分配的产品配置文件]**&#x200B;并选择&#x200B;**[!UICONTROL 分配配置文件]**。
 1. 选择&#x200B;**[!UICONTROL Adobe Experience Platform]**。
 1. 选择&#x200B;**[!UICONTROL 默认的生产所有访问]**&#x200B;产品配置文件，选择&#x200B;**[!UICONTROL 应用]**，然后选择&#x200B;**[!UICONTROL 保存]**。
-1. 打开&#x200B;**[!UICONTROL 用户]**&#x200B;并选择&#x200B;**[!UICONTROL 添加用户]**&#x200B;以添加需要访问Marketo限定符的所有人。
+1. 要添加需要访问Marketo Qualifier的所有人，请打开&#x200B;**[!UICONTROL 用户]**&#x200B;并选择&#x200B;**[!UICONTROL 添加用户]**。
 
 ### Marketo Qualifier管理员
 
@@ -155,7 +155,7 @@ Microsoft Dynamics 365或Azure管理员可注册应用程序并将其添加到Dy
 
 ### 输入您的连接
 
-1. 作为两个必需的Marketo限定符组的成员，登录到Marketo限定符并确认选择了正确的沙盒或环境。
+1. 作为两个必需的Marketo Qualifier组的成员，登录到Marketo Qualifier并确认选择了正确的沙盒或环境。
 1. 在左侧导航中，展开&#x200B;**[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 管理设置]**。
 1. 选择&#x200B;**[!UICONTROL 集成]**&#x200B;下的&#x200B;**[!UICONTROL CRM连接]**。
 
@@ -169,7 +169,7 @@ Microsoft Dynamics 365或Azure管理员可注册应用程序并将其添加到Dy
 
 ### 导入CRM字段
 
-连接CRM后，配置入站映射以确定哪些CRM字段显示在Marketo限定符中。 在连接的CRM信息卡上，选择&#x200B;**[!UICONTROL 管理]**&#x200B;以打开&#x200B;**[!UICONTROL 入站映射]**，然后为要导入其字段的每个实体类型添加一个节。
+连接CRM后，配置入站映射以确定哪些CRM字段显示在Marketo限定符中。 要打开&#x200B;**[!UICONTROL 入站映射]**，请在连接的CRM信息卡上选择&#x200B;**[!UICONTROL 管理]**，然后为要导入其字段的每个实体类型添加一个节。
 
 请参阅[映射CRM字段（入站映射）](integrations.md#map-crm-fields-inbound-mapping)以了解完整的步骤，包括如何使导入的字段可用作筛选条件。
 

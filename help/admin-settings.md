@@ -1,6 +1,6 @@
 ---
 title: 管理员设置
-description: 了解如何管理CRM字段、活动同步、电子邮件选择退出和其他Adobe Marketo限定符管理设置。
+description: 了解如何管理CRM字段、活动同步、电子邮件选择退出和其他[!DNL Adobe Marketo Qualifier]管理设置。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
@@ -14,9 +14,9 @@ feature_v2:
     internal-label: Administration
 
 internal-label: Administration
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1221'
 ht-degree: 0%
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 使用&#x200B;**[!UICONTROL 管理员设置]**&#x200B;配置CRM集成、管理知识中心和配置电子邮件选择退出。
 
-Adobe Marketo限定符连接到Salesforce或Microsoft Dynamics 365。 该连接使Account Qualification Agent (AQA)可以一致地查看潜在客户、客户、联系人、活动和所有者。 Marketo Qualifier还可以将外联活动和选择退出状态写回CRM，并将外联活动与Marketo同步。
+[!DNL Adobe Marketo Qualifier]连接到Salesforce或Microsoft Dynamics 365。 该连接使Account Qualification Agent (AQA)可以一致地查看潜在客户、客户、联系人、活动和所有者。 Marketo Qualifier还可以将外联活动和选择退出状态写回CRM，并将外联活动与Marketo同步。
 
 要配置CRM连接、字段映射和活动同步，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理员设置]** > **[!UICONTROL CRM连接]**。 标准用户可以使用配置的CRM数据和过滤器，但无法更改这些设置。 若要首次连接CRM，请参阅[开始使用](getting-started.md#connect-your-crm)。
 
@@ -37,8 +37,21 @@ Adobe Marketo限定符连接到Salesforce或Microsoft Dynamics 365。 该连接�
 Marketo限定符可通过以下方式与您的CRM配合使用：
 
 * **CRM MCP查询** — Account Qualification Agent查询实时CRM数据，以便回答和分析反映记录的当前状态。
-* **嵌入式插件**—CRM插件在您的CRM中显示[!DNL Marketo Sales Insights] (MSI)分析和代理数据。 使用该插件将潜在客户添加到Marketo Qualifier。
+* **嵌入式插件**—CRM插件在您的CRM中显示[!DNL Marketo Sales Insights] (MSI)分析和代理数据。 使用该插件向[!DNL Marketo Qualifier]添加潜在客户。
 * **活动同步** — 当管理员打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;时，外联活动将同步到CRM和Marketo。
+
+### 在CRM插件中排定潜在客户的优先级
+
+CRM插件提供了一个默认主页，代表可以在其中优先考虑潜在客户而不离开CRM。 可用的选项卡按源和意图组织工作：
+
+* **[!UICONTROL 最佳匹配]** — 已准备好进行操作的潜在客户推荐。
+* **[!UICONTROL 我的观察列表]** — 您正在跟踪的潜在客户。
+* **[!UICONTROL Web活动]** — 来自已知潜在客户的最近网站访问。
+* **[!UICONTROL 匿名Web活动]** — 来自未识别访客的访问。
+* **[!UICONTROL 我的电子邮件]** — 与您的潜在客户关联的电子邮件参与度。
+* **[!UICONTROL 网络研讨会]** — 网络研讨会注册和出席活动。
+
+每个潜在客户都可以包括[!DNL Marketo]电子邮件预览、指向潜在客户详细信息的链接以及LinkedIn研究。 您可以访问的选项卡和数据取决于您的CRM插件配置。
 
 ## CRM访问范围
 
@@ -55,7 +68,7 @@ Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在
 1. 选择&#x200B;**[!UICONTROL 添加节]**。
 1. 输入节名称和说明。
 1. 选择实体类型。 默认情况下已选择&#x200B;**[!UICONTROL 潜在客户]**。 **[!UICONTROL 联系人]**、**[!UICONTROL 帐户]**&#x200B;和&#x200B;**[!UICONTROL 机会]**&#x200B;也可用。
-1. 选择要导入的CRM字段。
+1. 要导入CRM字段，请选择相应的字段。
 
    每个字段行显示其&#x200B;**[!UICONTROL 显示名称]**、**[!UICONTROL 字段名称]**&#x200B;和&#x200B;**[!UICONTROL 数据类型]**。
 
@@ -106,17 +119,18 @@ Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在
 
 ## 构建知识中心行动手册 {#knowledge-center}
 
-**[!UICONTROL 知识中心]**&#x200B;允许Account Qualification Agent (AQA)访问您的销售资料。 Marketo Qualifier使用这些材料生成可反映贵组织销售方式的研究、资格鉴定见解和推广活动。 只有管理员才能构建和管理行动手册。
+**[!UICONTROL 知识中心]**&#x200B;允许Account Qualification Agent (AQA)访问您的销售资料。 Marketo Qualifier使用这些资料来生成研究、资格鉴定见解和推广活动，以反映贵组织的销售方式。 只有管理员才能构建和管理行动手册。
 
 ![知识中心](assets/knowledge-center.png){width="800" zoomable="yes"}
 
-1. 在左侧导航中，展开&#x200B;**[!UICONTROL 管理]**，选择&#x200B;**[!UICONTROL 管理员设置]**，然后选择&#x200B;**[!UICONTROL 知识中心]**
-1. u
+1. 在左侧导航中，展开&#x200B;**[!UICONTROL 管理]**，选择&#x200B;**[!UICONTROL 管理员设置]**，然后选择&#x200B;**[!UICONTROL 知识中心]**。
 1. 设置Marketo Qualifier用于调查您的公司和草稿电子邮件的&#x200B;**[!UICONTROL 公司名称]**&#x200B;和&#x200B;**[!UICONTROL 公司URL]**。
 1. 以PDF、PPTX或DOCX格式上传销售重头戏、理想客户档案(ICP)、定位指南和其他销售宣传资料。
 1. 选择&#x200B;**[!UICONTROL 生成行动手册]**。
 
-每个上载的文档都显示其处理状态（如&#x200B;**[!UICONTROL 就绪]**）以及上次更新的时间。
+页面显示最近构建的剧本的状态，并提供上传内容后的下一个操作。 要在生成后检索最新状态，请选择&#x200B;**[!UICONTROL 刷新]**。
+
+每个上载的文档还显示其处理状态（如&#x200B;**[!UICONTROL 就绪]**）以及上次更新的时间。
 
 >[!NOTE]
 >

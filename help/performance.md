@@ -1,5 +1,5 @@
 ---
-title: Adobe Marketo限定符中的出站性能
+title: Adobe Marketo Qualifier中的出站性能
 description: 了解如何在Adobe Marketo Qualifier中查看组织绩效和营销活动绩效报表，以跟踪出站活动和结果。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
@@ -8,15 +8,15 @@ product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
 Outbound Workflows    internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
 ---
 
-# Adobe Marketo限定符中的出站性能
+# Adobe Marketo Qualifier中的出站性能
 
-在左侧导航中，选择&#x200B;**[!UICONTROL 出站性能]**&#x200B;以跟踪团队中的出站活动和结果。 仪表板具有两个视图：**[!UICONTROL 组织业绩]**&#x200B;和&#x200B;**[!UICONTROL 促销活动业绩]**。
+要在团队中跟踪出站活动和结果，请在左侧导航中选择&#x200B;**[!UICONTROL 出站性能]**。 仪表板具有两个视图：**[!UICONTROL 组织业绩]**&#x200B;和&#x200B;**[!UICONTROL 促销活动业绩]**。
 
 ![出站性能](assets/outbound-performance.png){width="800" zoomable="yes"}
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 这些控件适用于两个视图和所有选项卡：
 
-* **[!UICONTROL 筛选器]**：选择&#x200B;**[!UICONTROL 筛选器]**&#x200B;以按团队成员和营销活动缩小仪表板的范围。
+* **[!UICONTROL 筛选器]**：若要按团队成员和营销活动缩小仪表板的范围，请选择&#x200B;**[!UICONTROL 筛选器]**。
 * **[!UICONTROL 时间段]**：选择7、15、30、60、90、180或365天的报告时段。
 
 ## 组织绩效
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 **[!UICONTROL 电子邮件]**&#x200B;选项卡报告电子邮件数量和有效性：
 
-* **磁贴**：默认情况下显示打开率和点击率，以便在不同数量的营销活动之间比较性能。 选择切换可查看已发送、已打开、已点击和已回复的电子邮件原始计数。
+* **磁贴**：默认情况下显示打开率和点击率，以便在不同数量的营销活动之间比较性能。 要查看已发送、已打开、已单击和已回复的电子邮件的原始计数，请选择切换开关。
 * **每周电子邮件趋势图**：按周显示电子邮件活动。
 * 代表性电子邮件性能表。
 
-Marketo Qualifier会为“不在办公室”回复和退回分配不同的状态，以便您能够将它们与潜在客户参与区分开来。
+Marketo Qualifier会为“不在办公室”回复和退回分配不同的状态，以便您能够将它们与“潜在客户参与”区分开来。
 
 ### “任务”选项卡
 
@@ -62,7 +62,7 @@ Marketo Qualifier会为“不在办公室”回复和退回分配不同的状态
 
 **[!UICONTROL 营销活动效果]**&#x200B;报告出站工作流营销活动的出站结果：
 
-* **KPI磁贴**：活跃的潜在客户、打开率、点击率、回复率和已预订的会议。 默认情况下，系统会显示打开率和点击率，这样在不同数量的营销活动中的效果可以相互比较。 选择切换可改为查看原始计数。
+* **KPI磁贴**：活跃的潜在客户、打开率、点击率、回复率和已预订的会议。 默认情况下，系统会显示打开率和点击率，这样在不同数量的营销活动中的效果可以相互比较。 要查看原始计数，请选择切换开关。
 * **促销活动量度趋势图**：选定时间段内的促销活动KPI。
 * **[!UICONTROL 营销活动]**&#x200B;表：每个营销活动的电子邮件、会议、呼叫和LinkedIn消息活动。 要查看营销活动的代表级别详细信息，请展开其行。
 
