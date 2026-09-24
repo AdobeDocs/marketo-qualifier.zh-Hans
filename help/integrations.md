@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1383'
 ht-degree: 1%
 ---
 
@@ -91,7 +91,7 @@ Marketo Qualifier仅读取它发送的电子邮件回复，而不读取收件箱
 
 ### 连接或编辑连接
 
-1. 在CRM卡上，选择&#x200B;**[!UICONTROL 连接]**，或选择&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 编辑配置]**&#x200B;以更新现有连接。
+1. 要创建连接，请在CRM卡片中选择&#x200B;**[!UICONTROL 连接]**。 要更新现有连接，请选择&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 编辑配置]**。
 1. 输入CRM管理员提供的凭据。
 
    >[!BEGINTABS]
@@ -110,16 +110,16 @@ Marketo Qualifier仅读取它发送的电子邮件回复，而不读取收件箱
 
 1. 选择&#x200B;**[!UICONTROL 连接]**（编辑时选择&#x200B;**[!UICONTROL 保存]**）。
 
-如果Marketo限定符拒绝凭据，则它会识别原因，例如凭据无效或过期、缺少权限或无法识别的Dynamics租户。 请更正该值并重试。
+如果Marketo Qualifier拒绝凭据，则会确定原因，例如凭据无效或过期、缺少权限或无法识别的Dynamics租户。 请更正该值并重试。
 
 >[!IMPORTANT]
 >
->不要通过电子邮件发送客户端密钥。 使用您组织批准的安全渠道与在Marketo Qualifier中输入凭据的人员共享凭据。
+>不要通过电子邮件发送客户端密钥。 使用您组织批准的安全渠道与在Marketo Qualifier中进入凭据的人共享凭据。
 
 ### 断开连接
 
 1. 在连接的CRM卡上，选择&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 断开连接]**。
-1. 查看警告并选择&#x200B;**[!UICONTROL 断开连接]**&#x200B;进行确认。
+1. 查看警告。 要确认，请选择&#x200B;**[!UICONTROL 断开连接]**。
 
 >[!WARNING]
 >
@@ -146,7 +146,7 @@ Marketo Qualifier仅读取它发送的电子邮件回复，而不读取收件箱
    | **[!UICONTROL 商机]** | 客户的机会详细信息。 |
 
 1. 输入&#x200B;**[!UICONTROL 节名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。 然后选择&#x200B;**[!UICONTROL 下一步]**。
-1. 在&#x200B;**[!UICONTROL 添加字段]**&#x200B;步骤中，搜索并选择要导入的CRM字段。 然后选择&#x200B;**[!UICONTROL 下一步]**。 每个字段显示其&#x200B;**[!UICONTROL 显示名称]**、**[!UICONTROL 字段名称]**&#x200B;和&#x200B;**[!UICONTROL 数据类型]**。
+1. 在&#x200B;**[!UICONTROL 添加字段]**&#x200B;步骤中，要导入CRM字段，请搜索并选择它们。 然后，要继续，请选择&#x200B;**[!UICONTROL 下一步]**。 每个字段显示其&#x200B;**[!UICONTROL 显示名称]**、**[!UICONTROL 字段名称]**&#x200B;和&#x200B;**[!UICONTROL 数据类型]**。
 1. 对于&#x200B;**[!UICONTROL 潜在客户]**、**[!UICONTROL 联系人]**&#x200B;和&#x200B;**[!UICONTROL 机会]**&#x200B;分区，为[潜在客户](prospects.md)列表中的代表所需的每个字段启用&#x200B;**[!UICONTROL 可筛选]**。
 
    如果某个字段的数据类型不支持过滤，或者该字段已用于其他部分，则无法使其可过滤。
@@ -192,11 +192,11 @@ Activity Sync会将Marketo限定符外联活动写入您的CRM和Marketo。 已�
 
 设置和模板会自动保存。
 
-当目标客户选择链接时，Marketo Qualifier将停止向该目标客户发送电子邮件，并将选择退出状态同步到连接的CRM。
+当目标客户选择链接时，Marketo Qualifier会停止向该目标客户发送电子邮件，并将选择退出状态同步到连接的CRM。
 
 ## CRM访问范围
 
-Marketo Qualifier会读取所需的CRM实体，并仅写回定义的数据集：
+Marketo Qualifier读取它需要的CRM实体，并只回写定义的数据集：
 
 * **读取** — 用户、联系人、所有者映射、潜在客户、客户、商机和活动。
 * **写入** — 已记录外展活动（当[活动同步](#configure-activity-sync-outbound-mapping)开启时）和选择退出状态。

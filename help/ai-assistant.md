@@ -1,12 +1,12 @@
 ---
 title: 使用人工智能聊天
-description: 了解如何使用Adobe Marketo Qualifier中的AI Chat研究客户、草稿外联，并根据您的CRM、参与和知识中心数据获得答案。
+description: 了解如何在[!DNL Adobe Marketo Qualifier]中使用AI Chat研究客户、草稿外联，并根据您的CRM、参与和知识中心数据获取答案。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Adobe Marketo Qualifier
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -16,21 +16,21 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '712'
 ht-degree: 1%
 ---
 
 # 人工智能聊天
 
-AI Chat会根据您的销售情况回答自然语言问题。 使用它来研究客户、准备电话、起草外联活动并安排您的工作优先级，而无需离开Adobe Marketo鉴定表。
+AI Chat会根据您的销售情况回答自然语言问题。 使用它来研究帐户、准备通话、草稿外联，并在不离开[!DNL Adobe Marketo Qualifier]的情况下确定您的工作的优先级。
 
 ![AI聊天按钮](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## 打开AI聊天
 
-选择浮动的&#x200B;**[!UICONTROL AI Chat]**&#x200B;按钮以打开聊天面板。 此时将在当前页面旁边打开面板，以便您可以查看潜在客户、帐户或出站工作流。 拖动面板的边缘以调整其大小。 若要关闭面板，请再次选择&#x200B;**[!UICONTROL AI Chat]**。
+要打开聊天面板，请选择浮动的&#x200B;**[!UICONTROL AI Chat]**&#x200B;按钮。 此时将在当前页面旁边打开面板，以便您可以查看潜在客户、帐户或出站工作流。 要调整面板的大小，请拖动其边缘。 若要关闭面板，请再次选择&#x200B;**[!UICONTROL AI Chat]**。
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ AI Chat可以使用以下源：
 
 ## 在连接的数据中询问AI聊天
 
-AI Chat可以回答有关Marketo Qualifier、CRM、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]和公司情报数据的问题。 用简单的语言提出问题以查找信息或拉取上下文。 AI Chat读取和报告您的数据；它不会创建、编辑或启动任何内容。
+AI Chat可以回答有关您的[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]和公司情报数据的问题。 用纯语言提问以查找信息或检索上下文。 AI Chat读取和报告您的数据；它不会创建、编辑或启动任何内容。
 
 以下是一些示例提示。 您在提示中显示的内容越具体，结果就越集中。
 
@@ -72,8 +72,8 @@ AI Chat可以回答有关Marketo Qualifier、CRM、[!DNL Marketo]、[!DNL Adobe 
 
 知识中心：
 
-* “在处理定价异议时，我们有什么抵押品？”
-* “我们与竞争对手的主要区别是什么？”
+* “在处理定价异议方面有哪些宣传材料？”
+* “与竞争对手相比，有哪些关键优势？”
 * “在知识中心列出文档。”
 * “总结一份文档。”
 
@@ -93,7 +93,7 @@ CRM：
 [!DNL Adobe Journey Optimizer B2B Edition]:
 
 * “我有多少次历程？”
-* “我的受众如何按角色细分？”
+* “角色如何划分我的受众？”
 * “我的帐户中存在哪些登陆页面？”
 * “哪些潜在客户领域有助于评分？”
 
@@ -129,7 +129,7 @@ AI生成的响应可能不准确。 在使用之前查看所有内容。
 * 在发送前仔细阅读草拟的电子邮件，并将其个性化。
 * 使用助理的输出作为起点，而不是已完成的交付内容。
 
-贵组织对AI Chat的使用受Adobe创作AI术语的约束。
+Adobe Generative AI术语控制您组织对AI Chat的使用。
 
 >[!MORELIKETHIS]
 >

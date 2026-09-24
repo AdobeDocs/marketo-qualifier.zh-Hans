@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '680'
 ht-degree: 1%
 ---
 
@@ -49,14 +49,14 @@ ht-degree: 1%
 
 1. 转到[Adobe Developer Console](https://developer.adobe.com/console/)并使用您的Adobe ID登录。
 1. 选择&#x200B;**[!UICONTROL 创建新项目]**，或打开现有项目。
-1. 选择&#x200B;**[!UICONTROL 编辑项目]**，将该项目重命名为可识别的项目，如`Marketo Qualifier Marketing Highlights`，然后选择&#x200B;**[!UICONTROL 保存]**。
+1. 若要重命名项目，请选择&#x200B;**[!UICONTROL 编辑项目]**，输入可识别的名称，如`Marketo Qualifier Marketing Highlights`，然后选择&#x200B;**[!UICONTROL 保存]**。
 1. 选择&#x200B;**[!UICONTROL 添加API]**，选择&#x200B;**[!UICONTROL Experience Platform API]**，然后选择&#x200B;**[!UICONTROL 下一步]**。
 1. 选择&#x200B;**[!UICONTROL OAuth服务器到服务器]**&#x200B;作为身份验证类型，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
    **[!UICONTROL OAuth服务器到服务器]**&#x200B;允许[!DNL Marketo]直接从服务器调用Marketo限定符API，无需人员登录。
 
 1. 输入不超过45个字符的凭据名称，如`Marketo Qualifier Marketing Highlights Creds`。
-1. 选择要关联的产品配置文件，然后选择&#x200B;**[!UICONTROL 保存配置的API]**。
+1. 要关联产品配置文件，请选择它，然后选择&#x200B;**[!UICONTROL 保存配置的API]**。
 1. 在&#x200B;**[!UICONTROL 连接的凭据]**&#x200B;下，打开&#x200B;**[!UICONTROL OAuth服务器到服务器]**&#x200B;凭据。 选择&#x200B;**[!UICONTROL 检索客户端密钥]**，然后复制&#x200B;**[!UICONTROL 客户端ID]**&#x200B;和&#x200B;**[!UICONTROL 客户端密钥]**。 在[部分C](#part-c-configure-the-marketo-webhook)中使用这些值。
 
 >[!WARNING]

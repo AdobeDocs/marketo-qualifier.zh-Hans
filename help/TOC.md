@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe Marketo限定符
-user-guide-description: 了解如何使用Adobe Marketo Qualifier为B2B销售团队自动进行潜在客户鉴别、外联和买方参与。
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+user-guide-title: '[!DNL Adobe Marketo Qualifier]'
+user-guide-description: 了解如何使用[!DNL Adobe Marketo Qualifier]为B2B销售团队自动进行潜在客户鉴别、外联和买方接洽。
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '42'
+ht-degree: 26%
 ---
-# Adobe Marketo鉴定表指南 {#using}
+# [!DNL Adobe Marketo Qualifier]指南 {#using}
 
 + [概述](home.md)
 + [发行说明](release-notes.md)

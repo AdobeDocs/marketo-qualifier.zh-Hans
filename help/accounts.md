@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo中的帐户限定符
-description: 了解如何在Adobe Marketo Qualifier中查看客户情报（包括AI研究、最近的新闻、机会和主要参与联系人）以优先开展外展活动。
+title: Adobe Marketo Qualifier中的帐户
+description: 了解如何在Adobe Marketo Qualifier中查看客户情报（包括AI研究、最新新闻、机会和主要参与联系人）以优先开展外联。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '647'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![包含“人员”和“帐户”选项卡的“目标客户”详细信息页面](./assets/account-home.png){width="800" zoomable="yes"}
 
-Adobe Marketo限定符从潜在客户的CRM记录中标识帐户。 每个与该帐户关联的目标客户都可以使用相同的帐户视图。 如果Marketo限定符无法与帐户匹配，则选项卡显示&#x200B;_未找到帐户_。
+Adobe Marketo Qualifier从潜在客户的CRM记录中标识帐户。 每个与该帐户关联的目标客户都可以使用相同的帐户视图。 如果Marketo Qualifier无法匹配帐户，则选项卡显示&#x200B;_未找到帐户_。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Adobe Marketo限定符从潜在客户的CRM记录中标识帐户。 每个与该
 选项卡顶部的概述卡可识别帐户并汇总其值：
 
 * 帐户名称和区域
-* **年度经常性收入(ARR)** — 所有活动订阅的年度经常性收入。 选择&#x200B;**[!UICONTROL 查看全部]**&#x200B;以在&#x200B;**[!UICONTROL 年度经常性收入]**&#x200B;对话框中按产品查看ARR。
+* **年度经常性收入(ARR)** — 所有活动订阅的年度经常性收入。 要在&#x200B;**[!UICONTROL 年度经常性收入]**&#x200B;对话框中按产品查看ARR，请选择&#x200B;**[!UICONTROL 查看全部]**。
 * 客户统计，包括未结机会和联系人计数以及管道值
 
 ### 帐户概述摘要
@@ -63,7 +63,7 @@ Adobe Marketo限定符从潜在客户的CRM记录中标识帐户。 每个与该
 
 | 视图 | 它显示的内容 |
 | --- | --- |
-| **[!UICONTROL 商机]** | 打开链接到客户的销售机会，每个销售机会都有键字段。 选择&#x200B;**[!UICONTROL 查看全部]**&#x200B;以查看表中的完整列表。 当管理员使这些字段可过滤时，还可以使用Opportunity详细信息（如阶段、类型和结束日期）在&#x200B;**[!UICONTROL My Opportunity Contacts]**&#x200B;中过滤客户的联系人。 |
+| **[!UICONTROL 商机]** | 打开链接到客户的销售机会，每个销售机会都有键字段。 若要在表中查看完整列表，请选择&#x200B;**[!UICONTROL 查看全部]**。 当管理员使这些字段可过滤时，还可以使用Opportunity详细信息（如阶段、类型和结束日期）在&#x200B;**[!UICONTROL My Opportunity Contacts]**&#x200B;中过滤客户的联系人。 |
 | **[!UICONTROL 热门成员]** | 客户参与度最高的联系人，按参与度排名。 每个联系人会显示其职务、电子邮件地址、参与度得分和紧急程度指示器。 |
 | **[!UICONTROL 意图数据]** | 为帐户购买意向信号，如帐户正在研究的产品和主题。 |
 | **[!UICONTROL 帐户团队成员]** | 分配给帐户的人员，及其电子邮件、职务、地区和产品组。 |
@@ -78,7 +78,7 @@ Adobe Marketo限定符从潜在客户的CRM记录中标识帐户。 每个与该
 
 **[!UICONTROL 帐户研究]**&#x200B;选项卡包含三个方面：
 
-* **[!UICONTROL 研究类别]** — 研究主题。 选择一个类别，以在中心窗格中查看其研究。
+* **[!UICONTROL 研究类别]** — 研究主题。 要在中心窗格中查看类别的研究，请选择类别。
 * **研究内容** — 按类别分组的AI生成的研究卡。 卡片可包含源域以及首次和上次检测到信号的日期。
 * **[!UICONTROL 最新新闻]** — 有关帐户的最新新闻，包括日期、标记和源链接。
 

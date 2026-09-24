@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo限定符概述
-description: 了解Adobe Marketo Qualifier，它是一款人工智能驱动的应用程序，可为B2B销售团队自动化潜在客户鉴别、外联和买方参与。
+title: '[!DNL Adobe Marketo Qualifier] 概述'
+description: 了解[!DNL Adobe Marketo Qualifier]，它是一款人工智能驱动的应用程序，可为B2B销售团队自动化潜在客户鉴别、外联和买方参与。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
@@ -17,19 +17,19 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 21%
+source-wordcount: '463'
+ht-degree: 18%
 ---
 
-# Adobe Marketo限定符
+# [!DNL Adobe Marketo Qualifier]
 
-Adobe Marketo Qualifier是一款AI支持的应用程序，可为业务开发代表(BDR)自动执行潜在客户鉴别、外联和跨渠道买方参与等操作。 Account Qualification Agent会分析您的帐户和潜在客户，优先考虑为下一步做好准备的帐户，并根据您的CRM数据起草个性化的外展活动。
+[!DNL Adobe Marketo Qualifier]是一款由AI提供支持的应用程序，可为业务开发代表(BDR)自动执行潜在客户鉴别、外联和跨渠道购买者参与等操作。 Account Qualification Agent会分析您的帐户和潜在客户，优先考虑为下一步做好准备的帐户，并根据您的CRM数据起草个性化的外展活动。
 
-BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问商业智能。
+该应用与[!DNL Marketo Engage]、[!DNL Marketo Optimizer]和[!DNL Marketo Measure]一起是[!DNL Marketo]产品系列的一部分。 BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问商业智能。
 
-## 在Marketo Qualifier中可以做什么
+## 在[!DNL Marketo Qualifier]中可以执行的操作
 
 * **使用AI生成的活动摘要和基于信号的优先级来排定潜在客户和帐户的优先级**。
 * **构建目标驱动的出站工作流**，其中AI为每个潜在客户建议节奏并草稿个性化电子邮件。
@@ -40,6 +40,12 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 * **通过电子邮件和会议预约报告跟踪外展业绩**。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
+
+## 使用主页
+
+主页为您的日常工作提供了一个起点。 首次指导和入门提示可帮助您打开&#x200B;**[!UICONTROL AI Chat]**&#x200B;并提问。 快速链接会将您直接转到&#x200B;**[!UICONTROL 潜在客户]**、**[!UICONTROL 出站工作流]**&#x200B;和&#x200B;**[!UICONTROL 任务]**。
+
+主页还显示即将执行的任务和出站工作流。 在任务列表中，选择日历任务或座席建议的任务，以便您能集中处理接下来重要的工作。
 
 ## 浏览指南
 

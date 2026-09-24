@@ -1,14 +1,24 @@
 ---
-title: Adobe Marketo鉴定表发行说明
-description: 了解Adobe Marketo Qualifier中的新增功能。
+title: '[!DNL Adobe Marketo Qualifier] 发行说明'
+description: 了解[!DNL Adobe Marketo Qualifier]中的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 12%
+source-wordcount: '390'
+ht-degree: 14%
 ---
-# Adobe Marketo鉴定表发行说明
+# [!DNL Adobe Marketo Qualifier] 发行说明
+
+## 09-22-2026
+
+此版本包括：
+
+* 在嵌入的CRM插件中查看[!DNL Marketo Sales Insights]和代理数据，并将潜在客户添加到[!DNL Marketo Qualifier]。 [了解详情](admin-settings.md#crm-mcp-and-the-embedded-plugin)。
+* 使用“最佳匹配”、“我的观察列表”、“Web活动”、“电子邮件往来”和“网络研讨会”活动来排定CRM商机的优先级。 [了解详情](admin-settings.md#prioritize-leads-in-the-crm-plugin)。
+* 当潜在客户的实时[!DNL Marketo]活动与工作流条件匹配时，自动在出站工作流中注册潜在客户。 [了解详情](home.md#automatically-enroll-prospects-from-marketing-highlights)。
+* 审查潜在客户上下文并导出潜在客户列表，并在[!DNL Marketo Optimizer]个Prime和Ultimate实例上查看AI人员摘要。 [了解详情](prospects.md#review-prospect-context-and-export-the-list)。
+* 在出站工作流中，审阅并批准任务队列中生成的目标客户电子邮件，并通过代理建议进行回复。 [了解详情](tasks.md)。
 
 ## 09-08-2026
 
@@ -21,11 +31,11 @@ ht-degree: 12%
 * 生成的电子邮件会使用您导入的任何其他潜在客户数据，并且可以使用潜在客户的语言以本机方式编写。 [了解详情](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
 * 默认情况下，“出站性能”显示打开率和点击率，并且在组织级别切换原始计数和潜在客户总数。 [了解详情](performance.md)。
 * 当目标客户在出站工作流中移动时，CRM同步规则会自动更新CRM状态。 [了解详情](admin-settings.md#configure-crm-sync-rules)。
-* 在您的Marketo限定符、CRM、[!DNL Marketo]和[!DNL Adobe Journey Optimizer B2B Edition]数据中提出AI Chat问题。 [了解详情](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
+* 在您的[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]和[!DNL Marketo Optimizer]数据中提出AI Chat问题。 [了解详情](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
 
 ## 08-17-2026
 
-[!DNL Marketo Qualifier]现已作为独立应用程序提供。 它支持Marketo和Adobe Journey Optimizer B2B。
+[!DNL Marketo Qualifier]现已作为独立应用程序提供。 它支持[!DNL Marketo Engage]和[!DNL Marketo Optimizer]。
 
 此版本包括：
 
