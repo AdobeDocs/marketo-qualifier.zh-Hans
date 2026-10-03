@@ -31,7 +31,7 @@ ht-degree: 19%
 1. 在&#x200B;**中，此内容是否有帮助？** 页面底部的横幅，选择&#x200B;**详细反馈选项**。
 1. 选择&#x200B;**建议编辑**&#x200B;并提交包含您更改的拉取请求(PR)。
 
-   有关详细信息，请参阅[Adobe Docs参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+   有关详细信息，请参阅[Adobe Docs参与者指南](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/introduction)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 
 使用GitHub界面进行基本编辑。 对于主要内容，请创建分支存储库。
 
-有关详细信息，请参阅[Adobe Docs参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+有关详细信息，请参阅[Adobe Docs参与者指南](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/introduction)。
 
 ## 内部投稿人
 
