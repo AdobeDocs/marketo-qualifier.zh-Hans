@@ -37,7 +37,7 @@ Adobe为您的组织配置Marketo Qualifier后，[!DNL Marketo]系统管理员�
 
 Adobe Admin Console中的用户组可用于控制对Marketo Qualifier的访问。 必须先创建这两个组，用户才能登录。
 
-有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)。
+有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/cn/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
