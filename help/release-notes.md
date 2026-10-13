@@ -3,12 +3,22 @@ title: '[!DNL Adobe Marketo Qualifier] 发行说明'
 description: 了解[!DNL Adobe Marketo Qualifier]中的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 12%
 ---
 # [!DNL Adobe Marketo Qualifier] 发行说明
+
+## 10-08-2026
+
+此版本包括：
+
+* 重用出站工作流，或更改正在运行的工作流的接触点，复制它并编辑副本。 复制最初为无潜在客户的专用草稿，而原始工作流未更改。 [了解详情](outbound-workflows.md#duplicate-an-outbound-workflow)。
+* 以紧凑布局配置出站工作流，并在目标、定位、接触点和设置之间导航。 [了解详情](outbound-workflows.md#create-an-outbound-workflow)。
+* 自动识别电子邮件回复中的清除选择退出请求。 潜在客户将标记为已选择退出，并且不会发送进一步的接触点。 [了解详情](outbound-workflows.md#opt-out-requests-in-replies)。
+* 准备会议时，只需一份简短的介绍，其中结合了Web研究和特定于产品的客户案例研究，并提供了按相关性和来源划分的讨论要点。 [了解详情](prospects.md#generate-meeting-prep)。
+* 生成的电子邮件将根据质量准则进行检查，并在需要时进行重写，然后再进行审核。 在发送每封电子邮件之前，您仍会审核、编辑和批准该电子邮件。 [了解详情](outbound-workflows.md#review-and-refine-generated-emails)。
 
 ## 09-22-2026
 
@@ -39,7 +49,7 @@ ht-degree: 14%
 
 此版本包括：
 
-* 通过AI生成的活动摘要和基于信号的评分，确定潜在客户和客户的优先级。 [&#128279;](accounts.md#account-insights)了解有关潜在客户或[帐户的更多信息](prospects.md#review-prospect-details)。
+* 通过AI生成的活动摘要和基于信号的评分，确定潜在客户和客户的优先级。 [了解有关潜在客户或[帐户的更多信息](prospects.md#review-prospect-details)](accounts.md#account-insights)。
 * 目标驱动的出站工作流，具有AI建议的节奏和草拟的电子邮件。 [了解详情](outbound-workflows.md)。
 * 电话、LinkedIn InMails和电子邮件审阅的统一任务队列。 [了解详情](tasks.md)。
 * 通过日历集成自动预订会议。 [了解详情](outbound-workflows.md#meeting-booking)。

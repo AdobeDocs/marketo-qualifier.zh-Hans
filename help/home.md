@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 18%
@@ -39,7 +39,7 @@ ht-degree: 18%
 * **使用自然语言提问** AI Chat，它使用您的CRM、参与和知识中心数据。
 * **通过电子邮件和会议预约报告跟踪外展业绩**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## 使用主页
 
@@ -51,7 +51,7 @@ ht-degree: 18%
 
 ::::landing-cards-container
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入门
 
@@ -61,7 +61,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 潜在客户
 
@@ -71,7 +71,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 帐户
 
@@ -81,7 +81,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 出站工作流
 
@@ -91,7 +91,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 任务
 
@@ -101,7 +101,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 性能
 
@@ -111,7 +111,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 知识中心
 
@@ -121,7 +121,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 集成
 
@@ -131,7 +131,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 轮廓设置
 
@@ -141,7 +141,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 人工智能聊天
 

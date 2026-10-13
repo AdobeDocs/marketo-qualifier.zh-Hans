@@ -1,12 +1,12 @@
 ---
-title: 开始使用Adobe Marketo限定符
-description: 了解如何在团队开始使用应用程序之前完成Adobe Marketo限定符的一次性管理员设置，包括用户组和CRM连接。
+title: Adobe Marketo Qualifier入门
+description: 了解如何在您的团队开始使用应用程序之前完成Adobe Marketo Qualifier的一次性管理员设置，包括用户组和CRM连接。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -21,23 +21,23 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
 ---
 
-# 开始使用Adobe Marketo限定符
+# Adobe Marketo Qualifier入门
 
-Adobe为您的组织设置Marketo限定符后，[!DNL Marketo]系统管理员必须创建所需的用户组并连接Salesforce或Microsoft Dynamics 365。
+Adobe为您的组织配置Marketo Qualifier后，[!DNL Marketo]系统管理员必须创建所需的用户组并连接Salesforce或Microsoft Dynamics 365。
 
-![Marketo限定符主页](assets/homepage.png){width="800" zoomable="yes"}
+![Marketo Qualifier主页](assets/homepage.png){width="800" zoomable="yes"}
 
 ## 设置用户组
 
-Adobe Admin Console中的用户组用于控制对Marketo Qualifier的访问。 必须先创建这两个组，用户才能登录。
+Adobe Admin Console中的用户组可用于控制对Marketo Qualifier的访问。 必须先创建这两个组，用户才能登录。
 
-有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/cn/business/enterprise/users/users-and-groups/user-groups.html)。
+有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
@@ -46,7 +46,7 @@ Adobe Admin Console中的用户组用于控制对Marketo Qualifier的访问。 �
 >* 成为组织管理员，可从Adobe应用程序切换器访问&#x200B;**[!UICONTROL Admin Console]**。
 >* 已分配Adobe Experience Platform产品或成为系统管理员。 否则，Adobe Experience Platform将不会显示在产品列表中。
 
-### Marketo限定符用户
+### Marketo Qualifier用户
 
 用户必须属于`Marketo Qualifier`用户组才能访问该应用程序。
 
@@ -77,7 +77,7 @@ Adobe Admin Console中的用户组用于控制对Marketo Qualifier的访问。 �
 
 ## 连接您的CRM
 
-Marketo Qualifier可连接到Salesforce或Microsoft Dynamics 365，从而为BDR提供用户、潜在客户、联系人、客户、商机、所有者映射和相关活动的统一视图。 初始连接需要此CRM数据的只读访问权限。 要在连接Marketo限定符之前准备凭据，请与您的CRM管理员联系。 有关集成详细信息，请参阅[集成](integrations.md)。
+Marketo Qualifier可连接到Salesforce或Microsoft Dynamics 365，从而为BDR提供用户、潜在客户、联系人、客户、机会、所有者映射和相关活动的统一视图。 初始连接需要此CRM数据的只读访问权限。 要在连接Marketo Qualifier之前准备凭据，请与您的CRM管理员联系。 有关集成详细信息，请参阅[集成](integrations.md)。
 
 >[!PREREQUISITES]
 >
@@ -116,7 +116,7 @@ Salesforce系统管理员创建外部客户端应用程序（也称为连接的�
 1. 确认运行方式用户具有`Leads`、`Accounts`、`Contacts`、`Tasks`、`Events`、`Opportunity`、`OpportunityContactRoles`和`OpportunityLineItems`的&#x200B;**读取**&#x200B;访问权限。 同时确认已启用&#x200B;**访问活动**。
 1. 保存应用程序。
 1. 从&#x200B;**[!UICONTROL 应用程序管理器]**&#x200B;中，打开应用程序并选择&#x200B;**[!UICONTROL 查看]** > **[!UICONTROL 使用者详细信息]**。
-1. 为Marketo限定符连接复制以下值：
+1. 为Marketo Qualifier连接复制以下值：
 
    * 使用者密钥（客户端ID）
    * 使用者密码（客户端密码）
@@ -128,7 +128,7 @@ Salesforce系统管理员创建外部客户端应用程序（也称为连接的�
 ### 查找您的Salesforce实例URL
 
 1. 从浏览器地址栏登录并记下您的组织&#x200B;_我的域_&#x200B;子域（`{{mydomain}}`值）。
-1. 对Marketo限定符使用规范形式： `https://{{mydomain}}.my.salesforce.com`。
+1. 对Marketo Qualifier使用规范格式： `https://{{mydomain}}.my.salesforce.com`。
 
 请勿使用`lightning.force.com` URL作为实例URL。
 
@@ -169,7 +169,7 @@ Microsoft Dynamics 365或Azure管理员可注册应用程序并将其添加到Dy
 
 ### 导入CRM字段
 
-连接CRM后，配置入站映射以确定哪些CRM字段显示在Marketo限定符中。 要打开&#x200B;**[!UICONTROL 入站映射]**，请在连接的CRM信息卡上选择&#x200B;**[!UICONTROL 管理]**，然后为要导入其字段的每个实体类型添加一个节。
+连接CRM后，配置入站映射以确定哪些CRM字段显示在Marketo Qualifier中。 要打开&#x200B;**[!UICONTROL 入站映射]**，请在连接的CRM信息卡上选择&#x200B;**[!UICONTROL 管理]**，然后为要导入其字段的每个实体类型添加一个节。
 
 请参阅[映射CRM字段（入站映射）](integrations.md#map-crm-fields-inbound-mapping)以了解完整的步骤，包括如何使导入的字段可用作筛选条件。
 
