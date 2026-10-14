@@ -4,8 +4,8 @@ description: 了解如何在Adobe Marketo Qualifier中连接Outlook、管理CRM�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -18,15 +18,15 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1456'
 ht-degree: 1%
 ---
 
 # 集成
 
-连接Outlook以发送电子邮件，识别潜在客户回复，并安排会议。 要使潜在客户、联系人、客户、商机、活动和所有者可用于Account Qualification Agent (AQA)和出站工作流，您还可以将Adobe Marketo Qualifier连接到Salesforce或Microsoft Dynamics 365。 Marketo Qualifier可读取CRM数据，将外联活动和选择退出状态写入回CRM，并可将外联活动与Marketo同步。 它不会修改CRM记录。
+连接Outlook以发送电子邮件，识别潜在客户回复，并安排会议。 要使Account Qualification Agent (AQA)和出站工作流能够使用潜在客户、联系人、客户、商机、活动和所有者，您还可以将Adobe Marketo Qualifier连接到Salesforce或Microsoft Dynamics 365。 Marketo Qualifier读取CRM数据，可以将外联活动和选择退出状态写入回CRM，并可以将外联活动同步到Marketo。 它不会修改CRM记录。
 
 本文介绍如何连接Outlook、管理CRM连接、映射字段、同步活动和配置电子邮件选择退出。 若要首次连接CRM，请参阅[开始使用](getting-started.md#connect-your-crm)。
 
@@ -42,9 +42,9 @@ ht-degree: 1%
 1. 使用您的Microsoft帐户登录。
 1. 审阅并批准请求的访问权限。
 
-该连接允许Marketo Qualifier从您的邮箱发送，识别潜在客户回复的时间，并在您的日历上安排会议。
+该连接允许Marketo Qualifier从您的邮箱发送、识别潜在客户回复的时间以及在您的日历上安排会议。
 
-连接后，您可以批准允许Marketo限定符的访问：
+连接后，您可以批准允许Marketo Qualifier执行以下操作的访问权限：
 
 * 识别来自潜在客户的回复。
 * 代表您创建并发送电子邮件。
@@ -56,11 +56,11 @@ ht-degree: 1%
 
 默认情况下，不需要管理员执行任何操作。 每位代表在连接Outlook时自行批准访问权限。
 
-如果您的组织在Microsoft 365或Microsoft Entra中关闭了针对第三方应用程序的用户同意功能，则Microsoft 365或Entra管理员必须针对整个组织批准一次Marketo限定符。 管理员在代表连接其Outlook帐户之前完成此审批。 在组织范围获得批准后，每个代表都可以连接其帐户。
+如果贵组织在Microsoft 365或Microsoft Entra中关闭了用户对第三方应用程序的同意，则Microsoft 365或Entra管理员必须针对整个组织批准一次Marketo Qualifier。 管理员在代表连接其Outlook帐户之前完成此审批。 在组织范围获得批准后，每个代表都可以连接其帐户。
 
 ### Marketo Qualifier如何处理您的邮箱数据
 
-Marketo Qualifier仅读取它发送的电子邮件回复，而不读取收件箱的其他部分。 它不会将传入附件或电子邮件存储在活动参与之外。 存储的登录凭据将被加密。
+Marketo Qualifier只读取它发送的电子邮件回复，而不会读取收件箱的其他部分。 它不会将传入附件或电子邮件存储在活动参与之外。 存储的登录凭据将被加密。
 
 ## 打开CRM设置
 
@@ -127,7 +127,7 @@ Marketo Qualifier仅读取它发送的电子邮件回复，而不读取收件箱
 
 ## 映射CRM字段（入站映射） {#map-crm-fields-inbound-mapping}
 
-入站映射可控制Marketo限定符导入的CRM字段及其显示位置。 字段将分组为多个部分，每个部分都属于一种实体类型。
+入站映射可控制Marketo Qualifier导入哪些CRM字段以及这些字段出现的位置。 字段将分组为多个部分，每个部分都属于一种实体类型。
 
 ![入站映射](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
@@ -159,7 +159,7 @@ Marketo Qualifier仅读取它发送的电子邮件回复，而不读取收件箱
 
 ## 配置活动同步（出站映射） {#configure-activity-sync-outbound-mapping}
 
-Activity Sync会将Marketo限定符外联活动写入您的CRM和Marketo。 已发送、已打开、已单击和已回复的电子邮件活动包括出站工作流名称。 代表可以在CRM中查看活动，而营销团队可以在潜在客户评分和参与时间线中使用Marketo活动。
+Activity Sync会将Marketo Qualifier外联活动写入您的CRM和Marketo。 已发送、已打开、已单击和已回复的电子邮件活动包括出站工作流名称。 代表可以在CRM中查看活动，而营销团队可以在潜在客户评分和参与时间线中使用Marketo活动。
 
 1. 在连接的CRM信息卡上，选择&#x200B;**[!UICONTROL 管理]**。
 1. 打开&#x200B;**[!UICONTROL 出站映射]**&#x200B;选项卡。
@@ -169,13 +169,13 @@ Activity Sync会将Marketo限定符外联活动写入您的CRM和Marketo。 已�
 
 >[!NOTE]
 >
->活动同步需要CRM中的写入权限。 如果缺少所需的权限，则会禁用交换机，并且Marketo限定符会提示您联系管理员。 要授予活动写入权限，请与您的CRM管理员合作。
+>活动同步需要CRM中的写入权限。 如果缺少所需的权限，则会禁用交换机，并且Marketo Qualifier会提示您联系管理员。 要授予活动写入权限，请与您的CRM管理员合作。
 
 ## 设置营销亮点 {#turn-on-marketo-engagement-filtering}
 
 营销亮点使代表能够按实时[!DNL Marketo]参与度（如电子邮件打开数和点击数）查找潜在客户并确定其优先级。 请参阅[按营销亮点筛选](prospects.md#filter-by-marketing-highlights)。
 
-管理员完成一次性设置，将[!DNL Marketo]连接到相关组织和沙盒的Marketo限定符。 该设置包括在Adobe Developer Console中创建API凭据，在[!DNL Marketo]中配置webhook，以及将该webhook添加到触发器Smart Campaign。 有关完整步骤，请参阅[设置营销亮点](marketing-highlights-setup.md)。
+管理员完成一次性设置，将[!DNL Marketo]连接到相关组织和沙盒的Marketo Qualifier。 该设置包括在Adobe Developer Console中创建API凭据，在[!DNL Marketo]中配置webhook，以及将该webhook添加到触发器Smart Campaign。 有关完整步骤，请参阅[设置营销亮点](marketing-highlights-setup.md)。
 
 营销亮点适用于所有生产地区：北美、EMEA和澳大利亚。
 
@@ -192,7 +192,7 @@ Activity Sync会将Marketo限定符外联活动写入您的CRM和Marketo。 已�
 
 设置和模板会自动保存。
 
-当目标客户选择链接时，Marketo Qualifier会停止向该目标客户发送电子邮件，并将选择退出状态同步到连接的CRM。
+当目标客户选择链接时，Marketo Qualifier会停止向该目标客户发送电子邮件，并将选择退出状态同步到连接的CRM。 Marketo Qualifier还可以在潜在客户的电子邮件回复中识别明确的选择退出请求（如“请停止通过电子邮件发送我”或“取消订阅”），并自动将潜在客户标记为选择退出。 应用相同的&#x200B;**[!UICONTROL 选择退出]**&#x200B;状态和徽章，并且不再发送接触点。 无需其他设置。 未明确要求停止的回复（例如“当前未要求停止”）不被视为选择退出。 查看回复中的[选择退出请求](outbound-workflows.md#opt-out-requests-in-replies)。
 
 ## CRM访问范围
 
@@ -201,7 +201,7 @@ Marketo Qualifier读取它需要的CRM实体，并只回写定义的数据集：
 * **读取** — 用户、联系人、所有者映射、潜在客户、客户、商机和活动。
 * **写入** — 已记录外展活动（当[活动同步](#configure-activity-sync-outbound-mapping)开启时）和选择退出状态。
 
-您的CRM管理员已在Salesforce或Dynamics中准备API访问权限。 然后，Marketo限定符管理员会连接CRM、映射入站字段并选择是否同步活动。 初始连接需要只读访问权限。 活动同步和选择退出写回需要相应的写访问权限。
+您的CRM管理员已在Salesforce或Dynamics中准备API访问权限。 然后，Marketo Qualifier管理员会连接CRM、映射入站字段并选择是否同步活动。 初始连接需要只读访问权限。 活动同步和选择退出写回需要相应的写访问权限。
 
 >[!MORELIKETHIS]
 >

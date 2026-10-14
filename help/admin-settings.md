@@ -3,20 +3,26 @@ title: 管理员设置
 description: 了解如何管理CRM字段、活动同步、电子邮件选择退出和其他[!DNL Adobe Marketo Qualifier]管理设置。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-    internal-label: Administration
-
 internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+autotag-review: '2026-10-08T17:58:28.029Z'
+TQID: 'https://experienceleague.adobe.com/2eccZWj1XY7qP20n6GcnBe6PZwNkp0ALhZfOhljwZF8'
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1292'
 ht-degree: 0%
 ---
 
@@ -34,7 +40,7 @@ ht-degree: 0%
 
 ## CRM MCP和嵌入式插件
 
-Marketo限定符可通过以下方式与您的CRM配合使用：
+Marketo Qualifier通过以下方式与您的CRM配合使用：
 
 * **CRM MCP查询** — Account Qualification Agent查询实时CRM数据，以便回答和分析反映记录的当前状态。
 * **嵌入式插件**—CRM插件在您的CRM中显示[!DNL Marketo Sales Insights] (MSI)分析和代理数据。 使用该插件向[!DNL Marketo Qualifier]添加潜在客户。
@@ -55,7 +61,7 @@ CRM插件提供了一个默认主页，代表可以在其中优先考虑潜在�
 
 ## CRM访问范围
 
-Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在客户、帐户、机会和活动。 它只将记录的外联活动和选择退出状态写入CRM，并将外联活动同步到Marketo。 您的CRM管理员已在Salesforce或Dynamics中准备API访问权限。 然后，Marketo限定符管理员会连接CRM、映射入站字段并选择是否同步活动。
+Marketo Qualifier从CRM中读取用户、联系人、所有者映射、潜在客户、帐户、机会和活动。 它只将记录的外联活动和选择退出状态写入CRM，并将外联活动同步到Marketo。 您的CRM管理员已在Salesforce或Dynamics中准备API访问权限。 然后，Marketo Qualifier管理员会连接CRM、映射入站字段并选择是否同步活动。
 
 >[!NOTE]
 >
@@ -63,7 +69,7 @@ Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在
 
 ## 映射CRM字段（入站映射）
 
-连接CRM后，为连接选择&#x200B;**[!UICONTROL 管理]**&#x200B;并打开&#x200B;**[!UICONTROL 入站映射]**。 入站映射控制Marketo限定符将哪些CRM字段拉入应用程序。
+连接CRM后，为连接选择&#x200B;**[!UICONTROL 管理]**&#x200B;并打开&#x200B;**[!UICONTROL 入站映射]**。 入站映射控制Marketo Qualifier将哪些CRM字段拉入应用程序。
 
 1. 选择&#x200B;**[!UICONTROL 添加节]**。
 1. 输入节名称和说明。
@@ -75,7 +81,7 @@ Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在
 1. 为要作为&#x200B;**[!UICONTROL 潜在客户]**&#x200B;列表中的筛选条件提供的每个潜在客户、联系人或机会字段打开&#x200B;**[!UICONTROL 可筛选]**。
 1. 预览该部分并选择&#x200B;**[!UICONTROL 添加]**。
 
-映射的字段显示在Marketo限定符的相应区域中：
+映射的字段显示在Marketo Qualifier的相应区域中：
 
 * 目标客户字段显示在&#x200B;**[!UICONTROL 人员]**&#x200B;选项卡上。
 * 帐户字段显示在&#x200B;**[!UICONTROL 帐户]**&#x200B;选项卡上。
@@ -85,13 +91,13 @@ Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在
 
 1. 从&#x200B;**[!UICONTROL CRM连接]**&#x200B;中，为连接的CRM选择&#x200B;**[!UICONTROL 管理]**。
 1. 打开&#x200B;**[!UICONTROL 出站映射]**。
-1. 打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;以将Marketo限定符外展活动同步回CRM和Marketo。
+1. 打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;以将Marketo Qualifier外联活动同步回CRM和Marketo。
 
 关闭活动同步后，Marketo Qualifier将继续使用入站CRM数据，但不会将外联活动与CRM或Marketo同步。
 
 ## 配置CRM同步规则
 
-当潜在客户在出站工作流中移动时，Marketo限定符可以自动将潜在客户状态更新写回Salesforce和Microsoft Dynamics，因此代表不再手动更新CRM。
+当潜在客户在出站工作流中移动时，Marketo Qualifier可以将潜在客户状态更新自动写回Salesforce和Microsoft Dynamics，以便代表不再手动更新CRM。
 
 ### CRM同步规则的用途
 
@@ -138,7 +144,7 @@ Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在
 
 当剧本准备就绪时，代表可以在两个地方使用它：
 
-* **出站电子邮件提示** — 在接触点提示中，命名文档并描述要使用的上下文。 例如，输入`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`。 查看[生成和查看接触点](outbound-workflows.md#step-3-generate-and-review-touchpoints)。
+* **出站电子邮件提示** — 在接触点提示中，命名文档并描述要使用的上下文。 例如，输入`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`。 请参阅[配置接触点](outbound-workflows.md#step-3-generate-and-review-touchpoints)。
 * **AI聊天**：请参阅您问题中的知识中心。 例如，输入`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`。 查看[人工智能聊天](ai-assistant.md)。
 
 在这两种情况下，生成的内容都反映了行动手册中的消息传递，而不是通用研究。
@@ -152,7 +158,7 @@ Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在
 
 设置会自动保存。
 
-当目标客户选择链接时，Marketo Qualifier停止向该目标客户发送电子邮件，并将选择退出状态同步到连接的CRM。
+当目标客户选择链接时，Marketo Qualifier停止向该目标客户发送电子邮件，并将选择退出状态同步到连接的CRM。 Marketo Qualifier还可以在潜在客户的电子邮件回复中识别明确的选择退出请求（如“请停止通过电子邮件发送我”或“取消订阅”），并自动将潜在客户标记为选择退出。 应用相同的&#x200B;**[!UICONTROL 选择退出]**&#x200B;状态和徽章，并且不再发送接触点。 无需其他设置。 未明确要求停止的回复（例如“当前未要求停止”）不被视为选择退出。 查看回复中的[选择退出请求](outbound-workflows.md#opt-out-requests-in-replies)。
 
 ## 参考：示例API参数
 

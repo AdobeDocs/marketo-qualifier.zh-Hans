@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2124387555f5fb08ea19eaf121fc87aa66d66de2
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '852'
 ht-degree: 1%
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 
 每个潜在客户显示其最新的[!DNL Marketo]活动以及最近的历史记录。
 
-营销亮点适用于所有生产区域。 管理员完成一次性设置，将[!DNL Marketo]连接到Marketo限定符。 请参阅[设置营销亮点](integrations.md#turn-on-marketo-engagement-filtering)。
+营销亮点适用于所有生产区域。 管理员完成一次性设置，将[!DNL Marketo]连接到Marketo Qualifier。 请参阅[设置营销亮点](integrations.md#turn-on-marketo-engagement-filtering)。
 
 ## 查看目标客户详细信息
 
@@ -106,8 +106,12 @@ ht-degree: 1%
 
 除了现用AI人员摘要之外，您还可以从&#x200B;**[!UICONTROL 会议研究]**&#x200B;选项卡（**[!UICONTROL 帐户研究]**&#x200B;旁边）生成针对特定即将到来的呼叫定制的会议准备。
 
+“会议准备”将有关潜在客户及其公司的Web调查与有关使用您销售产品的同类客户的案例分析中的证据结合起来。 案例研究谈话要点可包括可衡量的客户结果。 这些来源被合并成一个简短，谈话要点按相关性排序。 每个谈话要点都表明它是来自案例研究、网络研究还是两者兼而有之。 如果没有相关的案例研究证据，则会议准备使用Web研究。
+
 * **基于目标** — 如果潜在客户注册了正在运行的出站工作流，请选择它。 准备工作将与该叫客工作流的目标保持一致，如预订会议或重新吸引潜在客户。
 * **自定义提示** — 输入您要准备的内容，例如`Focus on renewal risk`或`Prepare for a technical deep dive with their IT lead`。 准备与您的提示相匹配。 当目标客户不在正在运行的出站工作流中时，自定义提示选项可用。
+
+此简介将持续遵循您选择的出站工作流目标或自定义提示。 生成会议准备的方式不会改变。
 
 >[!MORELIKETHIS]
 >
