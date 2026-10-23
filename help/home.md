@@ -40,7 +40,7 @@ ht-degree: 17%
 * **使用自然语言提问** AI Chat，它使用您的CRM、参与和知识中心数据。
 * **通过电子邮件和会议预约报告跟踪外展业绩**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
 
 ## 使用主页
 
