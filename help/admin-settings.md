@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1356'
 ht-degree: 0%
 ---
 
@@ -78,14 +78,16 @@ Marketo Qualifier从CRM中读取用户、联系人、所有者映射、潜在客
 
    每个字段行显示其&#x200B;**[!UICONTROL 显示名称]**、**[!UICONTROL 字段名称]**&#x200B;和&#x200B;**[!UICONTROL 数据类型]**。
 
-1. 为要作为&#x200B;**[!UICONTROL 潜在客户]**&#x200B;列表中的筛选条件提供的每个潜在客户、联系人或机会字段打开&#x200B;**[!UICONTROL 可筛选]**。
+1. 针对您想要在&#x200B;**[!UICONTROL 潜在客户]**&#x200B;列表和[出站工作流目标](outbound-workflows.md#step-2-configure-targeting-filters)中作为筛选器提供的每个潜在客户、联系人、帐户或机会字段，启用&#x200B;**[!UICONTROL 可筛选]**。
 1. 预览该部分并选择&#x200B;**[!UICONTROL 添加]**。
 
 映射的字段显示在Marketo Qualifier的相应区域中：
 
 * 目标客户字段显示在&#x200B;**[!UICONTROL 人员]**&#x200B;选项卡上。
-* 帐户字段显示在&#x200B;**[!UICONTROL 帐户]**&#x200B;选项卡上。
+* 帐户字段显示在&#x200B;**[!UICONTROL 帐户]**&#x200B;选项卡上。 在具有&#x200B;**[!UICONTROL 帐户]**&#x200B;实体类型的部分中，使字段可筛选，以便代表可以按其关联帐户的属性（如行业、区域或帐户类型）筛选联系人。
 * 机会字段显示在&#x200B;**[!UICONTROL 帐户机会]**&#x200B;部分中。 可过滤的商机字段在&#x200B;**[!UICONTROL 我的商机联系人]**&#x200B;中也会显示为它们自己的列，并带有标签，如&#x200B;**[!UICONTROL 阶段（商机）]**，以便与联系人字段区分开。
+
+帐户字段筛选可用于Salesforce和Microsoft Dynamics 365。 代表可以合并可过滤的客户、联系人和机会字段，以查找联系人并定义Outbound Workflow定位标准。
 
 ## 配置活动同步（出站映射）
 

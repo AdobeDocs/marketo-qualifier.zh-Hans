@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '754'
 ht-degree: 1%
 ---
 
@@ -58,7 +58,7 @@ AI Chat可以使用以下源：
 
 ## 在连接的数据中询问AI聊天
 
-AI Chat可以回答有关您的[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]和公司情报数据的问题。 用纯语言提问以查找信息或检索上下文。 AI Chat读取和报告您的数据；它不会创建、编辑或启动任何内容。
+AI Chat可以回答有关您的[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]和公司情报数据的问题。 用纯语言提问以查找信息或检索上下文。 这些连接数据查找可读取并报告您的数据；它们不会创建、编辑或启动项目或营销策划。
 
 以下是一些示例提示。 您在提示中显示的内容越具体，结果就越集中。
 
@@ -106,7 +106,8 @@ CRM：
 
 ### 当前范围和限制
 
-* AI Chat读取和报告您的数据。 它不会创建、编辑或启动任何内容。 例如，它不会创建项目、启动营销策划或编辑列表。
+* 连接数据查找可读取和报告您的数据。 他们不会创建项目、启动营销策划或编辑CRM记录。
+* 在[智能受众(Beta)](smart-audience.md)中，聊天支持受众列表上的操作，包括保存列表、添加信息列、筛选帐户和潜在客户并对其进行优先排序，以及将选定的潜在客户添加到现有的出站工作流。 这不会写入CRM或替换电子邮件审查和批准。
 * AI Chat查找信息；它不是报告工具。 它不会生成[!DNL Marketo]类型的分析或随时间变化的趋势，例如季度的电子邮件运行状况或最近10天创建的潜在客户列表。 对这些任务使用本机[!DNL Marketo]报表。
 
 ## 在您的剧本中给出答案

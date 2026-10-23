@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2776'
 ht-degree: 0%
 ---
 
@@ -93,6 +93,8 @@ AI会将目标中的需求准确地保留在生成的接触点中。 包括确�
 
 定位可以使用活动类型、分数、评分和其他可用属性。 将条件与[!DNL AND]或[!DNL OR]组合，并使用等号、包含、大于、小于和介于等运算符。
 
+对于Salesforce和Microsoft Dynamics 365，定位还可以合并管理员在[入站映射](integrations.md#map-crm-fields-inbound-mapping)中过滤的account、contact和opportunity字段。 例如，将联系人的角色与其关联帐户的行业以及定位正确联系人的机会的阶段结合起来。
+
 ### 从营销亮点中自动注册潜在客户
 
 叫客工作流可以根据其定位标准评估实时营销亮点活动。 当活动匹配时，[!DNL Marketo Qualifier]通过电子邮件解析潜在客户的CRM所有者，并仅在属于该代表的合格工作流中注册该潜在客户。
@@ -161,6 +163,8 @@ AI会根据您的指令重写整个节奏。 要调整一个电子邮件接触�
 ### 添加潜在客户并开始生成电子邮件 {#step-5-add-prospects-and-start-email-generation}
 
 保存后，从选择视图添加潜在客户。 这将应用您配置的定位过滤器。
+
+您还可以将潜在客户从[智能受众(Beta)列表](smart-audience.md#add-leads-to-an-outbound-workflow)添加到现有出站工作流。 在确认之前，请查看选定的潜在客户和工作流。 添加潜在客户不会取代下面描述的电子邮件审阅和批准步骤。
 
 1. 查看列表。
 

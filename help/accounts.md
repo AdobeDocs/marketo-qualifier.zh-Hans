@@ -13,15 +13,17 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: 30abc8c57bb9b7a57f68c8e7daecc1bf3ac36567
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '703'
 ht-degree: 0%
 ---
 
 # 帐户
 
 帐户视图结合了AI生成的研究、最新新闻、开放机会、管道价值和参与联系人。 在联系您之前，请使用此信息了解帐户并排定其优先级。
+
+要一次查找多个帐户并为其设置优先级，请使用[智能受众(Beta)](smart-audience.md)。 构建帐户列表，使用CRM数据和增长信号优化该列表，并查找要添加到出站工作流的潜在客户。
 
 ## 开立帐户
 
@@ -66,7 +68,9 @@ Adobe Marketo Qualifier从潜在客户的CRM记录中标识帐户。 每个与�
 | **[!UICONTROL 热门成员]** | 客户参与度最高的联系人，按参与度排名。 每个联系人会显示其职务、电子邮件地址、参与度得分和紧急程度指示器。 |
 | **[!UICONTROL 意图数据]** | 为帐户购买意向信号，如帐户正在研究的产品和主题。 |
 | **[!UICONTROL 帐户团队成员]** | 分配给帐户的人员，及其电子邮件、职务、地区和产品组。 |
-| **[!UICONTROL CRM字段]** | 从您的CRM导入的帐户字段，如集客映射中所配置。 查看[集成](integrations.md#map-crm-fields-inbound-mapping)。 |
+| **[!UICONTROL CRM字段]** | 从您的CRM导入的帐户字段，如集客映射中所配置。 |
+
+管理员设为可过滤的字段也可用于按联系人关联的帐户过滤联系人和定义出站工作流定位条件。 查看[集成](integrations.md#map-crm-fields-inbound-mapping)。
 
 从&#x200B;**[!UICONTROL 顶级成员]**&#x200B;视图中，对联系人执行以下任一操作：
 
