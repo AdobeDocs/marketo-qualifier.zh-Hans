@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 ---
 
 # 集成
@@ -147,9 +147,11 @@ Marketo Qualifier只读取它发送的电子邮件回复，而不会读取收件
 
 1. 输入&#x200B;**[!UICONTROL 节名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。 然后选择&#x200B;**[!UICONTROL 下一步]**。
 1. 在&#x200B;**[!UICONTROL 添加字段]**&#x200B;步骤中，要导入CRM字段，请搜索并选择它们。 然后，要继续，请选择&#x200B;**[!UICONTROL 下一步]**。 每个字段显示其&#x200B;**[!UICONTROL 显示名称]**、**[!UICONTROL 字段名称]**&#x200B;和&#x200B;**[!UICONTROL 数据类型]**。
-1. 对于&#x200B;**[!UICONTROL 潜在客户]**、**[!UICONTROL 联系人]**&#x200B;和&#x200B;**[!UICONTROL 机会]**&#x200B;分区，为[潜在客户](prospects.md)列表中的代表所需的每个字段启用&#x200B;**[!UICONTROL 可筛选]**。
+1. 对于&#x200B;**[!UICONTROL 潜在客户]**、**[!UICONTROL 联系人]**、**[!UICONTROL 帐户]**&#x200B;和&#x200B;**[!UICONTROL 机会]**&#x200B;分区，为[潜在客户](prospects.md#filter-and-find-prospects)列表或[出站工作流目标](outbound-workflows.md#step-2-configure-targeting-filters)中代表所需的每个字段启用&#x200B;**[!UICONTROL 可筛选]**。
 
    如果某个字段的数据类型不支持过滤，或者该字段已用于其他部分，则无法使其可过滤。
+
+   可过滤的帐户字段允许代表按其关联帐户的属性（如行业、地区或帐户类型）过滤联系人。 他们可以组合客户、联系人和机会筛选器以定义哪些联系人符合出站工作流的条件。 帐户字段筛选可用于Salesforce和Microsoft Dynamics 365。
 
    在&#x200B;**[!UICONTROL 我的Opportunity Contacts]**&#x200B;中，可筛选的Opportunity字段显示为单独的列，带有&#x200B;**[!UICONTROL 阶段(Opportunity)]**&#x200B;之类的标签。 后缀可将机会属性与关联联系人上的字段区分开来。
 

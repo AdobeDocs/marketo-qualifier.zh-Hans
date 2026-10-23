@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '953'
 ht-degree: 1%
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 ![显示潜在客户管理的潜在客户状态和最后一个活动的潜在客户表](./assets/prospects.png){width="800" zoomable="yes"}
 
 * 在连接的CRM中分配给您的&#x200B;**[!UICONTROL 潜在客户]**&#x200B;潜在客户。
-* 在连接的CRM中分配给您的&#x200B;**[!UICONTROL 联系人]**&#x200B;联系人。
+* 在连接的CRM中分配给您的&#x200B;**[!UICONTROL 联系人]**&#x200B;联系人及其关联帐户。 联系人详细信息还包括所有者的姓名。 这些详细信息适用于Salesforce和Microsoft Dynamics 365。
 * **[!UICONTROL 营销亮点]**&#x200B;具有实时Marketo活动（如电子邮件打开次数或点击次数）的潜在客户。
 * **[!UICONTROL 人员列表]**&#x200B;您手动导入或添加的潜在客户。
 
@@ -80,6 +80,8 @@ ht-degree: 1%
 
 在&#x200B;**[!UICONTROL 我的机会联系人]**&#x200B;中，您还可以按联系人关联机会中的字段筛选联系人，如阶段、类型和关闭日期。 机会字段具有标签，例如&#x200B;**[!UICONTROL 阶段（机会）]**，这会将它们与联系人字段区分开来。 您的管理员控制哪些机会字段可用作过滤器。
 
+您还可以按联系人关联帐户中的字段（如行业、地区或帐户类型）筛选联系人。 管理员选择可过滤的帐户字段。 合并客户、联系人和机会过滤器，以查找特定行业中处于特定角色的联系人。 帐户字段筛选适用于Salesforce和Microsoft Dynamics 365，并且相同的字段可用于[出站工作流目标](outbound-workflows.md#step-2-configure-targeting-filters)。
+
 ### 按营销亮点过滤
 
 按潜在客户的实时[!DNL Marketo]参与情况（如电子邮件活动、Web访问和表单填写）查看潜在客户并确定其优先级。 参与几乎实时地出现。
@@ -98,8 +100,8 @@ ht-degree: 1%
 要打开目标客户配置文件，请选择目标客户。 在联系您之前，先查看重要的信号：
 
 * **AI人员摘要** — 商机或联系人及其最近参与的AI写入快照。 在查看各个活动之前，使用摘要快速了解相关人员。 运行[!DNL Marketo Optimizer] Prime或Ultimate的实例上提供了AI人员摘要。
-* **活动列表** — 按时间顺序排列的活动和最近行为的列表。
-* **时间线视图** — 跨渠道参与的可视时间线。
+* **活动列表** — 按时间顺序排列的列表，显示过去90天的营销活动。
+* **时间线视图** — 一个可视化时间线，可跨渠道显示过去90天的营销参与。
 * **已查看内容** — 潜在客户查看的网页和资产。 要打开项目，请选择该项目。
 
 ### 生成会议准备

@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 17%
 ---
 
 # [!DNL Adobe Marketo Qualifier]
@@ -32,6 +32,7 @@ ht-degree: 18%
 ## 在[!DNL Marketo Qualifier]中可以执行的操作
 
 * **使用AI生成的活动摘要和基于信号的优先级来排定潜在客户和帐户的优先级**。
+* **通过以纯语言描述帐户、添加CRM数据和增长信号以及查看出站工作流的已评分潜在客户，使用[智能受众(Beta)](smart-audience.md)**&#x200B;构建目标列表。
 * **构建目标驱动的出站工作流**，其中AI为每个潜在客户建议节奏并草稿个性化电子邮件。
 * **在一个队列中处理外联**&#x200B;以进行电话通话、LinkedIn InMails和电子邮件审核。
 * **通过连接您的日历并将个人预订链接插入您的节奏中，自动预订会议**。
@@ -39,7 +40,7 @@ ht-degree: 18%
 * **使用自然语言提问** AI Chat，它使用您的CRM、参与和知识中心数据。
 * **通过电子邮件和会议预约报告跟踪外展业绩**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## 使用主页
 
@@ -51,7 +52,7 @@ ht-degree: 18%
 
 ::::landing-cards-container
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入门
 
@@ -61,7 +62,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 潜在客户
 
@@ -71,7 +72,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 帐户
 
@@ -81,7 +82,17 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+智能受众(Beta)
+
+建立帐户和销售线索列表并排列其优先顺序，然后将选定的销售线索添加至出站工作流。
+
+[智能受众(Beta)](smart-audience.md)
+:::
+
+:::card
+![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 出站工作流
 
@@ -91,7 +102,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 任务
 
@@ -101,7 +112,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 性能
 
@@ -111,7 +122,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 知识中心
 
@@ -121,7 +132,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 集成
 
@@ -131,7 +142,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 轮廓设置
 
@@ -141,7 +152,7 @@ ht-degree: 18%
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 人工智能聊天
 
