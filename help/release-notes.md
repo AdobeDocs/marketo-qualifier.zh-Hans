@@ -3,7 +3,13 @@ title: '[!DNL Adobe Marketo Qualifier] 发行说明'
 description: 了解[!DNL Adobe Marketo Qualifier]中的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Marketo Qualifier
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 11%
@@ -55,7 +61,7 @@ ht-degree: 11%
 
 此版本包括：
 
-* 通过AI生成的活动摘要和基于信号的评分，确定潜在客户和客户的优先级。 [&#128279;](accounts.md#account-insights)了解有关潜在客户或[帐户的更多信息](prospects.md#review-prospect-details)。
+* 通过AI生成的活动摘要和基于信号的评分，确定潜在客户和客户的优先级。 [了解有关潜在客户或[帐户的更多信息](prospects.md#review-prospect-details)](accounts.md#account-insights)。
 * 目标驱动的出站工作流，具有AI建议的节奏和草拟的电子邮件。 [了解详情](outbound-workflows.md)。
 * 电话、LinkedIn InMails和电子邮件审阅的统一任务队列。 [了解详情](tasks.md)。
 * 通过日历集成自动预订会议。 [了解详情](outbound-workflows.md#meeting-booking)。
