@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1369'
 ht-degree: 0%
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 Marketo Qualifier通过以下方式与您的CRM配合使用：
 
 * **CRM MCP查询** — Account Qualification Agent查询实时CRM数据，以便回答和分析反映记录的当前状态。
-* **嵌入式插件**—CRM插件在您的CRM中显示[!DNL Marketo Sales Insights] (MSI)分析和代理数据。 使用该插件向[!DNL Marketo Qualifier]添加潜在客户。
+* **嵌入式插件**—CRM插件在您的CRM中显示[!DNL Marketo Sales Insights] (MSI)分析和代理数据。 使用该插件向[!DNL Marketo Qualifier]添加潜在客户。 有关安装和Salesforce操作设置，请参阅[将Marketo Qualifier嵌入到CRM中](crm-plugin-setup.md)。
 * **活动同步** — 当管理员打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;时，外联活动将同步到CRM和Marketo。
 
 ### 在CRM插件中排定潜在客户的优先级
@@ -195,5 +195,5 @@ ORDER BY LastModifiedDate DESC
 
 >[!MORELIKETHIS]
 >
->* [入门](getting-started.md)
+>* [开始使用](getting-started.md)
 >* [潜在客户](prospects.md)

@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '3086'
 ht-degree: 0%
 ---
 
@@ -82,20 +82,21 @@ AI会将目标中的需求准确地保留在生成的接触点中。 包括确�
 
 定位过滤器定义哪些潜在客户符合条件。 当您稍后添加潜在客户时，只有符合这些过滤器的潜在客户才会显示在选择列表中。
 
-![定位筛选器](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+以简单的语言描述您要联系的CRM潜在客户或联系人。 例如，输入`Contacts with open opportunities closing in the next 30 days`，或使用内置示例提示开始操作。 [!DNL Adobe Marketo Qualifier]将描述转换为可在保存之前查看和编辑的筛选器。 如果无法将描述的一部分转换为过滤器，则会对其进行标记，以便您可以查看条件，而不是无意中将其排除在外。
 
-用自然语言描述您理想的前景。 例如，输入`Hot leads at companies with 500 or more employees who requested a demo`。 [!DNL Adobe Marketo Qualifier]将描述转换为您可以查看和优化的定位条件。
+筛选器生成器使用与“潜在客户”页面上的[营销高亮显示筛选器](prospects.md#filter-by-marketing-highlights)相同的体验。 使用它可添加、编辑或清除条件。
 
-1. 要打开&#x200B;**[!UICONTROL 添加筛选器]**&#x200B;列表，请选择向下箭头，然后选择筛选器。
-
-1. 设置筛选器的值。
-1. 如果需要缩小受众，请添加更多过滤器。
-
-1. 继续到接触点。
+1. 查看从您的描述生成的过滤器，或选择过滤器以手动添加条件。
+1. 选择运算符，然后输入或选择每个条件的值。
+1. 添加、编辑或清除条件以优化受众。
+1. 选择&#x200B;**[!UICONTROL 预览潜在客户]**&#x200B;或&#x200B;**[!UICONTROL 预览联系人]**&#x200B;以查看匹配的目标客户。
+1. 在继续接触点之前，需要查看预览并调整过滤器。
 
 定位可以使用活动类型、分数、评分和其他可用属性。 将条件与[!DNL AND]或[!DNL OR]组合，并使用等号、包含、大于、小于和介于等运算符。
 
-对于Salesforce和Microsoft Dynamics 365，定位还可以合并管理员在[入站映射](integrations.md#map-crm-fields-inbound-mapping)中过滤的account、contact和opportunity字段。 例如，将联系人的角色与其关联帐户的行业以及定位正确联系人的机会的阶段结合起来。
+**[!UICONTROL 潜在客户]**&#x200B;和&#x200B;**[!UICONTROL 联系人]**&#x200B;列表中的每个筛选器都可用于定位，包括帐户字段、机会字段、出站工作流状态和联系人类别，如&#x200B;**[!UICONTROL 我的机会联系人]**。 管理员选择可在[入站映射](integrations.md#map-crm-fields-inbound-mapping)中过滤的CRM字段。
+
+所有定位过滤器都与工作流一起保存，并在您添加潜在客户时自动应用。 [代理建议](tasks.md#agent-suggestions)使用相同的全套过滤器，因此推荐的潜在客户符合您的定位条件。
 
 ### 从营销亮点中自动注册潜在客户
 
@@ -258,6 +259,25 @@ AI会为每个选定的潜在客户生成个性化电子邮件，并发送电子
 
 * 在&#x200B;**[!UICONTROL 参与的潜在客户]**&#x200B;和&#x200B;**[!UICONTROL 绩效]**&#x200B;上，使用&#x200B;**[!UICONTROL 注册者]**&#x200B;筛选潜在客户，筛选注册者为潜在客户。 该过滤器默认为您注册的潜在客户。
 * 在&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡上，使用共享筛选器选择&#x200B;**[!UICONTROL 由我共享]**、**[!UICONTROL 与我共享]**、**[!UICONTROL 私有]**&#x200B;或&#x200B;**[!UICONTROL 全部]**。
+
+## 审阅并发送人工智能草稿回复
+
+当潜在客户回复出站工作流电子邮件时，您可以直接从工作流的&#x200B;**[!UICONTROL 参与的潜在客户]**&#x200B;视图中查看、编辑和发送AI草稿回复，而无需切换到任务。 有关草稿如何使用对话上下文以及哪些邮件需要个人回复，请参阅[回复具有代理建议的潜在客户](tasks.md#reply-to-a-prospect-with-an-agent-suggestion)。
+
+1. 打开出站工作流并选择&#x200B;**[!UICONTROL 参与的潜在客户]**。
+1. 选择目标客户旁边的&#x200B;**[!UICONTROL AI草稿回复以供审阅]**&#x200B;标记。
+
+   标记的信息图标说明了潜在客户已回复且草稿已准备就绪。 您还可以在潜在客户的接触点中在其应答的电子邮件下方找到草稿，标记为&#x200B;**[!UICONTROL 回复此电子邮件]**。
+
+1. 阅读潜在客户的信息，该信息显示在建议的响应上方。
+1. 根据需要编辑草稿。
+1. 选择&#x200B;**[!UICONTROL 批准并发送]**&#x200B;以发送回复，或选择&#x200B;**[!UICONTROL 拒绝回复]**&#x200B;以放弃回复。
+
+   执行任一操作后都会显示确认。
+
+要打开完整的电子邮件对话，请选择&#x200B;**[!UICONTROL 查看会话]**。
+
+每个草稿都显示其状态：**[!UICONTROL 待审审阅]**、**[!UICONTROL 已发送]**、**[!UICONTROL 已拒绝]**&#x200B;或&#x200B;**[!UICONTROL 已取消]**。 只有目标客户的所有者可以批准或拒绝草稿。 如果无法对草稿执行操作，则按钮将不可用，并且消息将说明原因。
 
 ## 外出回复处理
 
