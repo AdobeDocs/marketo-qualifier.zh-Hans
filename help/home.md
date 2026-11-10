@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '554'
 ht-degree: 17%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 [!DNL Adobe Marketo Qualifier]是一款由AI提供支持的应用程序，可为业务开发代表(BDR)自动执行潜在客户鉴别、外联和跨渠道购买者参与等操作。 Account Qualification Agent会分析您的帐户和潜在客户，优先考虑为下一步做好准备的帐户，并根据您的CRM数据起草个性化的外展活动。
 
-该应用与[!DNL Marketo Engage]、[!DNL Marketo Optimizer]和[!DNL Marketo Measure]一起是[!DNL Marketo]产品系列的一部分。 BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问商业智能。
+该应用与[!DNL Marketo Engage]、[!DNL Marketo Optimizer]和[!DNL Marketo Measure]一起是[!DNL Marketo]产品系列的一部分。 BDR可以使用[CRM插件](crm-plugin-setup.md)直接在Salesforce或Microsoft Dynamics 365中访问商业智能，并使用电子邮件插件在Outlook中访问商业智能。
 
 ## 在[!DNL Marketo Qualifier]中可以执行的操作
 
@@ -143,6 +143,16 @@ ht-degree: 17%
 连接Salesforce或Microsoft Dynamics 365并映射您的字段。
 
 [集成](integrations.md)
+:::
+
+:::card
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+
+CRM插件设置
+
+安装CRM插件，并为出站工作流和Marketo营销活动配置Salesforce操作。
+
+[在您的CRM中嵌入Marketo Qualifier](crm-plugin-setup.md)
 :::
 
 :::card

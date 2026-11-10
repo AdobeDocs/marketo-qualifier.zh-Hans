@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1063'
 ht-degree: 0%
 ---
 
@@ -179,6 +179,8 @@ Microsoft Dynamics 365或Azure管理员可注册应用程序并将其添加到Dy
 请参阅[映射CRM字段（入站映射）](integrations.md#map-crm-fields-inbound-mapping)以了解完整的步骤，包括如何使导入的字段可用作筛选条件。
 
 ## 后续步骤
+
+管理员可以选择安装[CRM插件](crm-plugin-setup.md)，以便代表可以在Salesforce或Microsoft Dynamics 365中使用Marketo Qualifier分析。 在Salesforce中，管理员还可以将叫客工作流和Marketo营销活动的操作添加到潜在客户和联系人列表视图中，并记录页面。
 
 >[!MORELIKETHIS]
 >

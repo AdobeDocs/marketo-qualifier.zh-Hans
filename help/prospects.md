@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1033'
 ht-degree: 1%
 ---
 
@@ -86,6 +86,8 @@ ht-degree: 1%
 * 帐户
 * 源
 * 上次更新时间
+
+在&#x200B;**[!UICONTROL 潜在客户]**&#x200B;和&#x200B;**[!UICONTROL 联系人]**&#x200B;列表中，文本筛选器（如&#x200B;**[!UICONTROL 工作标题]**&#x200B;和&#x200B;**[!UICONTROL 电子邮件]**）使用包含运算符接受最多五个值。 键入值并按Enter，然后添加下一个值。 结果包括与任何值匹配的潜在客户。 例如，包含`manager`和`director`的职称筛选器返回职称包含任一单词的潜在客户。 此筛选器适用于Salesforce和Microsoft Dynamics 365，并且在[出站工作流目标](outbound-workflows.md#step-2-configure-targeting-filters)中可以使用相同的筛选器。
 
 管理员还可以使映射的CRM字段可用作过滤器。 在&#x200B;**[!UICONTROL 管理员设置]**&#x200B;中，为用户用于查找潜在客户的每个字段打开&#x200B;**[!UICONTROL 可筛选]**。 查看[映射CRM字段](integrations.md#map-crm-fields-inbound-mapping)。
 

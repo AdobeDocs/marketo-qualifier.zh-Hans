@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1105'
 ht-degree: 0%
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ## 代理建议
 
-**[!UICONTROL 代理建议]**&#x200B;选项卡列出了与出站工作流的定位条件匹配且建议注册的潜在客户。 要启用推荐，请参阅[出站工作流](outbound-workflows.md)。
+**[!UICONTROL 代理建议]**&#x200B;选项卡列出了建议使用针对筛选器的全套[出站工作流进行注册的潜在客户](outbound-workflows.md#step-2-configure-targeting-filters)。 要启用推荐，请参阅[出站工作流](outbound-workflows.md)。
 
 要在工作面板中查看建议，请选择该建议：
 
@@ -139,6 +139,8 @@ ht-degree: 0%
 1. 打开回复建议并查看完整主题和草拟的回复。
 1. 要创建另一个草稿，请编辑响应或选择&#x200B;**[!UICONTROL 使用AI生成]**。
 1. 若要发送响应并继续潜在客户的出站工作流，请选择&#x200B;**[!UICONTROL 批准并发送]**。
+
+您还可以在出站工作流的&#x200B;**[!UICONTROL 参与的潜在客户]**&#x200B;视图中[审核、编辑、发送或拒绝AI草稿回复](outbound-workflows.md#review-and-send-ai-draft-replies)。
 
 ## 从出站工作流完成任务
 

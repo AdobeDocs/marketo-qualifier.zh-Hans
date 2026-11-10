@@ -9,15 +9,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 11%
+source-wordcount: '767'
+ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] 发行说明
 
 ## 即将发布的版本
 
+* 用纯语言描述您要联系的人员，并将其转化为CRM潜在客户和联系人过滤器，在“出站工作流”定位中使用每个“潜在客户”和“联系人”过滤器，并在保存之前预览匹配的潜在客户。 [了解详情](outbound-workflows.md#step-2-configure-targeting-filters)。
+* 在文本字段（如职务和电子邮件）中同时按多个值过滤潜在客户，每个过滤器最多可包含五个值。 [了解详情](prospects.md#filter-and-find-prospects)。
+* 直接从出站工作流审核、编辑和发送对潜在客户回复的AI草稿回复，或拒绝不适合的草稿。 [了解详情](outbound-workflows.md#review-and-send-ai-draft-replies)。
+* 在Salesforce或Microsoft Dynamics 365中安装[!DNL Adobe Marketo Qualifier]，并从Salesforce列表视图和记录页面将潜在客户添加到出站工作流或Marketo营销活动。 [了解详情](crm-plugin-setup.md)。
+* 智能受众(Beta)可快速入门：引导式演练、创建受众时的快速添加选项，以及记录计数的更清晰的列表、保留在视图中的帐户列和颜色编码分数。 [了解详情](smart-audience.md)。
 * 利用Smart audience (Beta)查找并优先处理合适的客户和潜在客户。 以纯语言描述您需要的帐户，添加CRM数据和增长信号，审查已评分的潜在客户，并将它们添加到出站工作流。 [了解详情](smart-audience.md)。
 * 按帐户字段、“联系人”和“机会”字段筛选联系人，以查找合适的联系人并更准确地定位出站工作流。 [了解详情](prospects.md#filter-and-find-prospects)。
 * 联系人会显示其关联的帐户和所有者姓名，而潜在客户的页面现在会显示90天的营销活动，最多为30天。 [了解详情](prospects.md#review-prospect-details)。
