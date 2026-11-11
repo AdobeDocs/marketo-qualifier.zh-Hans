@@ -9,14 +9,14 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '768'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] 发行说明
 
-## 即将发布的版本
+## 2026年11月版
 
 * 用纯语言描述您要联系的人员，并将其转化为CRM潜在客户和联系人过滤器，在“出站工作流”定位中使用每个“潜在客户”和“联系人”过滤器，并在保存之前预览匹配的潜在客户。 [了解详情](outbound-workflows.md#step-2-configure-targeting-filters)。
 * 在文本字段（如职务和电子邮件）中同时按多个值过滤潜在客户，每个过滤器最多可包含五个值。 [了解详情](prospects.md#filter-and-find-prospects)。
