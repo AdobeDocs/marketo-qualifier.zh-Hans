@@ -1,6 +1,6 @@
 ---
-title: CRM连接
-description: 了解如何在Salesforce或Microsoft Dynamics 365中安装Marketo Qualifier，以及如何为出站工作流和Marketo营销活动配置Salesforce操作。
+title: 设置CRM插件
+description: 了解如何在Salesforce或Microsoft Dynamics 365中安装Marketo Qualifier CRM插件。 为工作流和Marketo营销活动配置Salesforce操作。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -17,13 +17,13 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '953'
 ht-degree: 0%
 ---
 
-# CRM连接
+# 设置CRM插件
 
 安装[!DNL Adobe Marketo Qualifier] CRM插件，以便代表无需离开Salesforce或Microsoft Dynamics 365，即可使用潜在客户、联系人和帐户记录页面上的[!DNL Marketo Sales Insights]和人工智能生成的见解。 该插件还提供了一个主页视图，用于[在您的CRM中优先考虑潜在客户](admin-settings.md#prioritize-leads-in-the-crm-plugin)。
 
