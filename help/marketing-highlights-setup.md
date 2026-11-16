@@ -1,6 +1,6 @@
 ---
 title: 设置营销亮点
-description: 了解如何将Marketo连接到Adobe Marketo Qualifier，以便代表可以在“营销亮点”中按Marketo的实时活动查看和筛选潜在客户。
+description: 了解如何通过Smart Campaign流程步骤将潜在客户从Marketo Engage发送到Marketo Qualifier，并获取营销亮点建议以供审查。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -21,30 +21,63 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '1011'
 ht-degree: 1%
 ---
 
 # 设置营销亮点
 
-营销亮点显示每个潜在客户的实时[!DNL Marketo]活动，如电子邮件打开数和点击数、Web访问数和表单填写数。 本文说明如何连接[!DNL Marketo]实例，以便活动流入中。
+通过将&#x200B;**[!UICONTROL 发送到Marketo Qualifier]**&#x200B;流程步骤添加到Smart Campaign，将潜在客户从[!DNL Adobe Marketo Engage]发送到[!DNL Adobe Marketo Qualifier]。 代表可以在&#x200B;**[!UICONTROL 潜在客户]** > **[!UICONTROL 营销亮点]**&#x200B;上查看发送他们的潜在客户和活动。
+
+流程步骤适用于两种类型的Smart Campaign：
+
+* **触发营销活动**&#x200B;发送参与情况，例如电子邮件打开和点击、链接点击、表单填写和网页访问。
+* **批次营销活动**&#x200B;每次运行营销活动时发送符合条件的潜在客户。
+
+当商机与出站工作流的定位条件匹配时，Marketo Qualifier建议在连接的CRM中将商机推荐给其所有者。 在注册和外联之前，拥有该产品的代表负责审阅和批准商机。 潜在客户不会自动注册。
+
+营销亮点适用于所有生产地区：北美、EMEA和澳大利亚。
+
+## 开始之前 {#before-you-begin}
+
+在添加流程步骤之前，请确认以下先决条件：
+
+* Marketo管理员已在&#x200B;**[!UICONTROL 管理员]**&#x200B;中为您的Marketo Engage实例启用&#x200B;**[!UICONTROL 发送到Marketo Qualifier]**。
+* Marketo Qualifier已[连接到Salesforce或Microsoft Dynamics 365](getting-started.md#connect-your-crm)，因此每个潜在客户都可以与其CRM所有者匹配。
 
 >[!IMPORTANT]
 >
->要完成此设置，需要访问[!DNL Marketo]中的Adobe Developer Console和&#x200B;**[!UICONTROL 管理员]**。 请与您的Adobe联系人和[!DNL Marketo]管理员合作，完成以下四个部分。
+>**[!UICONTROL 发送到Marketo Qualifier]**&#x200B;流程步骤不需要webhook、端点URL或API凭据。 您不需要访问Adobe Developer Console即可使用它。 如果流程步骤不可用，请与Marketo管理员联系。
 
-设置分为四个部分：
+## 通过Smart Campaign发送潜在客户 {#send-leads-with-a-smart-campaign}
 
-* A部分：在Adobe Developer Console中创建API凭据。
-* B部分：收集Adobe Marketo Qualifier端点和标识符。
-* C部分：在[!DNL Marketo Engage]中配置webhook。
-* 第D部分：将webhook添加到触发器Smart Campaign。
+使用现有的Smart Campaign，或为要发送的潜在客户和活动创建一个。
 
-安装完成后，用户将在&#x200B;**[!UICONTROL 潜在客户]** > **[!UICONTROL 营销亮点]**&#x200B;上查看和筛选此活动。
+1. 在Marketo Engage中，打开Smart Campaign，或选择&#x200B;**[!UICONTROL 营销活动]** > **[!UICONTROL 新建]** > **[!UICONTROL Smart Campaign]**&#x200B;以创建一个。
+1. 在&#x200B;**[!UICONTROL 智能列表]**&#x200B;选项卡上，定义哪些潜在客户符合条件。
 
-## A部分：创建API凭据 {#part-a-create-api-credentials}
+   * 对于触发器促销活动，为要发送的活动添加触发器，如&#x200B;**[!UICONTROL 访问网页]**、**[!UICONTROL 点击网页上的链接]**&#x200B;或电子邮件中的&#x200B;**[!UICONTROL 点击链接]**。
+   * 对于批量营销活动，请为要发送的潜在客户添加过滤器。
+
+1. 在&#x200B;**[!UICONTROL 流]**&#x200B;选项卡上，添加&#x200B;**[!UICONTROL 发送到Marketo Qualifier]**&#x200B;流步骤。
+1. 激活触发器营销活动，或运行或计划批处理营销活动。
+1. 在Marketo Qualifier中，打开&#x200B;**[!UICONTROL 潜在客户]** > **[!UICONTROL 营销亮点]**&#x200B;以查看潜在客户及其活动。
+
+   该活动显示商机如何到达，例如&#x200B;**[!UICONTROL 从批次营销活动]**&#x200B;添加。
+
+只向其CRM所有者建议符合出站工作流定位标准的潜在客户。 若要查看建议，请打开&#x200B;**[!UICONTROL 任务]** > **[!UICONTROL 代理建议]**。 查看[从营销亮点获取建议](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights)和[代理建议](tasks.md#agent-suggestions)。
+
+## 现有webhook设置 {#existing-webhook-setups}
+
+以下说明描述了较早的webhook设置。 在&#x200B;**[!UICONTROL 发送到Marketo Qualifier]**&#x200B;流程步骤中不需要这些端口。 如果贵组织已使用webhook，请在更改该设置之前与Marketo管理员和Adobe联系人联系。
+
++++Webhook设置说明
+
+这些说明需要访问Adobe Developer Console和Marketo Engage中的&#x200B;**[!UICONTROL 管理员]**。
+
+### A部分：创建API凭据 {#part-a-create-api-credentials}
 
 这些凭据允许[!DNL Marketo]安全地向Marketo Qualifier进行身份验证。
 
@@ -66,7 +99,7 @@ ht-degree: 1%
 >
 >将客户端密钥设为私有。 请将其视为密码，不要通过电子邮件发送。 使用您组织批准的安全渠道与配置webhook的人员共享该渠道。
 
-## B部分：收集您的端点和标识符 {#part-b-gather-your-endpoint-and-identifiers}
+### B部分：收集您的端点和标识符 {#part-b-gather-your-endpoint-and-identifiers}
 
 [部分C](#part-c-configure-the-marketo-webhook)需要三个值：
 
@@ -84,7 +117,7 @@ ht-degree: 1%
 
 如果您不确定自己的地区、imsOrg ID或沙盒名称，您的Adobe联系人可以确认它们。
 
-## C部分：配置Marketo webhook {#part-c-configure-the-marketo-webhook}
+### C部分：配置Marketo webhook {#part-c-configure-the-marketo-webhook}
 
 要创建webhook，请执行以下操作：
 
@@ -171,7 +204,7 @@ ht-degree: 1%
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-## D部分：将webhook添加到触发器Smart Campaign {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
+### D部分：将webhook添加到触发器Smart Campaign {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
 将&#x200B;**[!UICONTROL Call Webhook]**&#x200B;流程步骤添加到触发智能营销活动（现有或新步骤）。 智能列表会在该营销策划中触发，从而决定要将哪些活动发送到Marketo Qualifier。
 
@@ -184,8 +217,10 @@ ht-degree: 1%
 
 来自该Smart Campaign的活动现在流入Marketo Qualifier。 代表可以在&#x200B;**[!UICONTROL 潜在客户]** > **[!UICONTROL 营销亮点]**&#x200B;上查看和筛选此活动。
 
++++
+
 >[!MORELIKETHIS]
 >
 >* [管理集成](integrations.md)
 >* [潜在客户](prospects.md)
->* [入门](getting-started.md)
+>* [开始使用](getting-started.md)

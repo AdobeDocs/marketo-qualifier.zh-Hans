@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3140'
 ht-degree: 0%
 ---
 
@@ -98,16 +98,19 @@ AI会将目标中的需求准确地保留在生成的接触点中。 包括确�
 
 所有定位过滤器都与工作流一起保存，并在您添加潜在客户时自动应用。 [代理建议](tasks.md#agent-suggestions)使用相同的全套过滤器，因此推荐的潜在客户符合您的定位条件。
 
-### 从营销亮点中自动注册潜在客户
+### 从营销亮点获取推荐 {#automatically-enroll-prospects-from-marketing-highlights}
 
-叫客工作流可以根据其定位标准评估实时营销亮点活动。 当活动匹配时，[!DNL Marketo Qualifier]通过电子邮件解析潜在客户的CRM所有者，并仅在属于该代表的合格工作流中注册该潜在客户。
+出站工作流可以根据“营销亮点”中的定位标准评估潜在客户和活动。 通过[!DNL Marketo Engage]中的&#x200B;**[!UICONTROL 发送到Marketo Qualifier]**&#x200B;流程步骤，从触发器或批处理Smart Campaign发送潜在客户。 请参阅[设置营销亮点](marketing-highlights-setup.md)。
 
-自动登记将遵循以下顺序：
+当条件匹配时，[!DNL Marketo Qualifier]从Salesforce或Microsoft Dynamics 365中解析潜在客户的所有者，并仅将该潜在客户推荐给该代表。 潜在客户不会自动注册。
+
+推荐将遵循以下顺序：
 
 1. 代表定义工作流的定位标准。
-1. 实时[!DNL Marketo]活动到达目标客户。
-1. [!DNL Marketo Qualifier]从Salesforce或Microsoft Dynamics中解析潜在客户的所有者，并根据该所有者的合格工作流评估活动。
-1. 当标准匹配时，将注册潜在客户并开始外联。
+1. 商机从Marketo Engage Smart Campaign访问营销亮点。
+1. Marketo Qualifier将商机与其CRM所有者匹配，并根据所有者的合格工作流评估商机和活动。
+1. 当条件匹配时，所有者将在&#x200B;**[!UICONTROL 任务]** > **[!UICONTROL 代理建议]**&#x200B;中收到建议。
+1. 所有者审阅推荐的潜在客户并生成电子邮件，然后[在开始外展之前批准并注册潜在客户](#approve-and-enroll-prospects)。
 
 如果其他代表已经在联系潜在客户，[!DNL Marketo Qualifier]会在重复的外联开始之前显示警告。
 

@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 0%
 ## 代理建议
 
 **[!UICONTROL 代理建议]**&#x200B;选项卡列出了建议使用针对筛选器的全套[出站工作流进行注册的潜在客户](outbound-workflows.md#step-2-configure-targeting-filters)。 要启用推荐，请参阅[出站工作流](outbound-workflows.md)。
+
+从[!DNL Marketo Engage]发送的、具有&#x200B;**[!UICONTROL 发送到Marketo Qualifier]**&#x200B;流程步骤的潜在客户在与出站工作流的定位条件匹配时，也可以在此处显示。 仅向连接的Salesforce或Microsoft Dynamics 365 CRM中的商机所有者推荐每个商机。 在注册和推广之前，所有者审查并批准潜在客户；从Marketo Engage发送潜在客户不会自动注册。 请参阅[设置营销亮点](marketing-highlights-setup.md)。
 
 要在工作面板中查看建议，请选择该建议：
 

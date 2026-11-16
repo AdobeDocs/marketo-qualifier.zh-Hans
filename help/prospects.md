@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1058'
 ht-degree: 1%
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 * 在连接的CRM中分配给您的&#x200B;**[!UICONTROL 潜在客户]**&#x200B;潜在客户。
 * 在连接的CRM中分配给您的&#x200B;**[!UICONTROL 联系人]**&#x200B;联系人及其关联帐户。 联系人详细信息还包括所有者的姓名。 这些详细信息适用于Salesforce和Microsoft Dynamics 365。
-* **[!UICONTROL 营销亮点]**&#x200B;具有实时Marketo活动（如电子邮件打开次数或点击次数）的潜在客户。
+* 从Marketo Engage发送的&#x200B;**[!UICONTROL 营销亮点]**&#x200B;潜在客户触发器或批量智能营销活动，包括电子邮件打开数或点击数等参与度。
 * **[!UICONTROL 人员列表]**&#x200B;您手动导入或添加的潜在客户。
 
 ## 查看目标客户上下文并导出列表
@@ -97,16 +97,16 @@ ht-degree: 1%
 
 ### 按营销亮点过滤
 
-按潜在客户的实时[!DNL Marketo]参与情况（如电子邮件活动、Web访问和表单填写）查看潜在客户并确定其优先级。 参与几乎实时地出现。
+查看从[!DNL Marketo Engage]发送的潜在客户并排定其优先级，包括电子邮件活动、Web访问和表单填写。 触发营销活动在运行时发送参与，批量营销活动在每次运行时发送符合条件的潜在客户。
 
 要按营销亮点筛选潜在客户，请执行以下操作：
 
 1. 选择&#x200B;**[!UICONTROL 筛选器]**。
 1. 添加营销亮点过滤器并设置活动类型、营销活动或其他属性，以重点关注重要的参与。
 
-每个潜在客户显示其最新的[!DNL Marketo]活动以及最近的历史记录。
+每个潜在客户显示其最新的[!DNL Marketo]活动以及最近的历史记录。 该活动可显示商机的到达方式，例如&#x200B;**[!UICONTROL 从批次营销活动]**&#x200B;添加。
 
-营销亮点适用于所有生产区域。 管理员完成一次性设置，将[!DNL Marketo]连接到Marketo Qualifier。 请参阅[设置营销亮点](integrations.md#turn-on-marketo-engagement-filtering)。
+营销亮点适用于所有生产区域。 要通过&#x200B;**[!UICONTROL 发送至Marketo Qualifier]**&#x200B;流程步骤发送潜在客户，请参阅[设置营销亮点](marketing-highlights-setup.md)。
 
 ## 查看目标客户详细信息
 

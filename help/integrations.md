@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1517'
 ht-degree: 0%
 ---
 
@@ -186,7 +186,7 @@ Activity Sync会将Marketo Qualifier外联活动写入您的CRM和Marketo。 已
 
 营销亮点使代表能够按实时[!DNL Marketo]参与度（如电子邮件打开数和点击数）查找潜在客户并确定其优先级。 请参阅[按营销亮点筛选](prospects.md#filter-by-marketing-highlights)。
 
-管理员完成一次性设置，将[!DNL Marketo]连接到相关组织和沙盒的Marketo Qualifier。 该设置包括在Adobe Developer Console中创建API凭据，在[!DNL Marketo]中配置webhook，以及将该webhook添加到触发器Smart Campaign。 有关完整步骤，请参阅[设置营销亮点](marketing-highlights-setup.md)。
+将&#x200B;**[!UICONTROL 发送到Marketo Qualifier]**&#x200B;流程步骤添加到[!DNL Marketo Engage]中的触发器或批处理Smart Campaign，以发送符合条件的潜在客户，且没有要配置的webhook或API凭据。 有关先决条件和步骤，请参阅[设置营销亮点](marketing-highlights-setup.md)。
 
 营销亮点适用于所有生产地区：北美、EMEA和澳大利亚。
 
