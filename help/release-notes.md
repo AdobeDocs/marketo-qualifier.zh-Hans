@@ -9,15 +9,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '821'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] 发行说明
 
 ## 2026年11月版
 
+* 通过将&#x200B;**[!UICONTROL 发送到Marketo Qualifier]**&#x200B;流程步骤添加到任何触发器或批处理Smart Campaign，将潜在客户从[!DNL Marketo Engage]发送到[!DNL Marketo Qualifier]，无需设置webhook或API凭据。 建议将匹配叫客工作流的潜在客户发送给其所有者进行审阅。 [了解详情](marketing-highlights-setup.md)。
 * 用纯语言描述您要联系的人员，并将其转化为CRM潜在客户和联系人过滤器，在“出站工作流”定位中使用每个“潜在客户”和“联系人”过滤器，并在保存之前预览匹配的潜在客户。 [了解详情](outbound-workflows.md#step-2-configure-targeting-filters)。
 * 在文本字段（如职务和电子邮件）中同时按多个值过滤潜在客户，每个过滤器最多可包含五个值。 [了解详情](prospects.md#filter-and-find-prospects)。
 * 直接从出站工作流审核、编辑和发送对潜在客户回复的AI草稿回复，或拒绝不适合的草稿。 [了解详情](outbound-workflows.md#review-and-send-ai-draft-replies)。
@@ -43,7 +44,7 @@ ht-degree: 10%
 
 * 在嵌入的CRM插件中查看[!DNL Marketo Sales Insights]和代理数据，并将潜在客户添加到[!DNL Marketo Qualifier]。 [了解详情](admin-settings.md#crm-mcp-and-the-embedded-plugin)。
 * 使用“最佳匹配”、“我的观察列表”、“Web活动”、“电子邮件往来”和“网络研讨会”活动来排定CRM商机的优先级。 [了解详情](admin-settings.md#prioritize-leads-in-the-crm-plugin)。
-* 当潜在客户的实时[!DNL Marketo]活动与工作流条件匹配时，自动在出站工作流中注册潜在客户。 [了解详情](home.md#automatically-enroll-prospects-from-marketing-highlights)。
+* 为其[!DNL Marketo]活动与叫客工作流的定位条件匹配的潜在客户获取推荐。 所属的代表在注册和外联之前审核和批准潜在客户。 [了解详情](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights)。
 * 审查潜在客户上下文并导出潜在客户列表，并在[!DNL Marketo Optimizer]个Prime和Ultimate实例上查看AI人员摘要。 [了解详情](prospects.md#review-prospect-context-and-export-the-list)。
 * 在出站工作流中，审阅并批准任务队列中生成的目标客户电子邮件，并通过代理建议进行回复。 [了解详情](tasks.md)。
 
